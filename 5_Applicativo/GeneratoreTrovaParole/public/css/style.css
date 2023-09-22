@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 233, 233);
+    padding: 1px;
+}
+.page-box, .info-box{
+    width: 50%;
+}
+.page-box{
+    border: 1px solid black;
+    padding: 10px;
+}
+.insert-title-box{
+    border: 1px dashed black;
+    text-align: center;
+}
+.insert-title-box input{
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+}
