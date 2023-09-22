@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generato da Microsoft Visio, esportazione SVG Activity Diagram - generazione.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="8.26772in"
+		viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st14">
+	<v:documentProperties v:langID="1040" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(0):26"/>
+			<v:ud v:nameU="visV14CFF" v:prompt="" v:val="VT0(1):26"/>
+			<v:ud v:nameU="visFlowchartType" v:prompt="" v:val="VT4(CrossFunctional)"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ec7d31;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {marker-end:url(#mrkr4-8);stroke:#a5a5a5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st3 {fill:#a5a5a5;fill-opacity:1;stroke:#a5a5a5;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st4 {fill:#ffffff;stroke:#a5a5a5;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st5 {fill:#5c5c5c;font-family:Calibri;font-size:0.666664em}
+		.st6 {font-size:1em}
+		.st7 {fill:#ffffff;stroke:#febf01;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st8 {fill:#8d6b01;font-family:Calibri;font-size:0.666664em}
+		.st9 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st10 {fill:#ec7d31}
+		.st11 {stroke:#ed7d31;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st12 {fill:#ffffff;stroke:#4572c3;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st13 {fill:#243f70;font-family:Calibri;font-size:0.666664em}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-8" class="st3" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+			<v:ud v:nameU="visNavType" v:val="VT0(1):26"/>
+		</v:userDefs>
+		<title>Pagina 1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Diagramma di flusso" v:index="0"/>
+		<v:layer v:name="Connettore" v:index="1"/>
+		<g id="shape19-1" v:mID="19" v:groupContext="shape" v:layerMember="1;0" transform="translate(84.3307,-428.077)">
+			<title>On-page reference.57</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(9250):26"/>
+			</v:userDefs>
+			<path d="M0 582.52 A12.7559 12.7559 0 0 1 25.51 582.52 A12.7559 12.7559 0 1 1 0 582.52 Z" class="st1"/>
+		</g>
+		<g id="shape31-3" v:mID="31" v:groupContext="shape" v:layerMember="1" transform="translate(90,-428.077)">
+			<title>Dynamic connector.27</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(10250):26"/>
+			</v:userDefs>
+			<path d="M7.09 595.28 L7.09 630.76" class="st2"/>
+		</g>
+		<g id="shape32-9" v:mID="32" v:groupContext="shape" v:layerMember="0" transform="translate(61.6536,-343.038)">
+			<title>Processo</title>
+			<desc>Lettura parole inserite</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(11250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="12.34" y="571.62" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Lettura parole <tspan
+						x="23.22" dy="1.2em" class="st6">inserite</tspan></text>		</g>
+		<g id="shape33-13" v:mID="33" v:groupContext="shape" v:layerMember="0" transform="translate(339.449,-343.038)">
+			<title>Processo.33</title>
+			<desc>Generazione matrice 10x15 vuota</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(12250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="14.82" y="566.82" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Generazione <tspan
+						x="12.24" dy="1.2em" class="st6">matrice 10x15<v:newlineChar/></tspan><tspan x="26.16" dy="1.2em"
+						class="st6">vuota</tspan></text>		</g>
+		<g id="shape34-18" v:mID="34" v:groupContext="shape" v:layerMember="1" transform="translate(132.52,-357.211)">
+			<title>Dynamic connector.34</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(13250):26"/>
+			</v:userDefs>
+			<path d="M0 588.19 L54.61 588.19" class="st2"/>
+		</g>
+		<g id="shape35-23" v:mID="35" v:groupContext="shape" v:layerMember="0" transform="translate(194.173,-334.959)">
+			<title>Decisione</title>
+			<desc>Limite caratteri rispettato?</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(14250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.8976" cy="565.937" width="81.5" height="44.0079"/>
+			<path d="M0 565.94 L48.9 536.6 L97.8 565.94 L48.9 595.28 L0 565.94 Z" class="st7"/>
+			<text x="24.05" y="563.54" class="st8" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Limite caratteri <tspan
+						x="31.03" dy="1.2em" class="st6">rispettato?</tspan></text>		</g>
+		<g id="shape42-27" v:mID="42" v:groupContext="shape" v:layerMember="1" transform="translate(235.984,-334.959)">
+			<title>Dynamic connector.42</title>
+			<desc>[NO]</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(18250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="620.575" width="40" height="17.6036"/>
+			<path d="M7.09 595.28 L7.09 638.83" class="st2"/>
+			<rect v:rectContext="textBkgnd" x="-0.597163" y="615.775" width="15.3674" height="9.59985" class="st9"/>
+			<text x="-0.6" y="622.97" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>[NO]</text>		</g>
+		<g id="shape43-34" v:mID="43" v:groupContext="shape" v:layerMember="0" transform="translate(207.638,-241.841)">
+			<title>Processo.43</title>
+			<desc>Mostra errore</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(19250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="12.51" y="576.42" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Mostra errore</text>		</g>
+		<g id="shape45-37" v:mID="45" v:groupContext="shape" transform="translate(228.26,-139.723)">
+			<title>Nodo finale</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(21250):26"/>
+			</v:userDefs>
+			<path d="M26.66 580.46 A11.8488 11.8488 -180 1 0 2.96 580.46 A11.8488 11.8488 -180 1 0 26.66 580.46 Z" class="st10"/>
+			<path d="M29.62 580.46 A14.811 14.811 -180 1 0 0 580.46 A14.811 14.811 -180 1 0 29.62 580.46" class="st11"/>
+			<path d="M26.66 580.46 A11.8488 11.8488 -180 1 0 2.96 580.46 A11.8488 11.8488 -180 1 0 26.66 580.46" class="st11"/>
+		</g>
+		<g id="shape47-41" v:mID="47" v:groupContext="shape" v:layerMember="1" transform="translate(250.157,-241.841)">
+			<title>Dynamic connector.47</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(22250):26"/>
+			</v:userDefs>
+			<path d="M-7.09 595.28 L-7.09 660.73" class="st2"/>
+		</g>
+		<g id="shape48-46" v:mID="48" v:groupContext="shape" v:layerMember="1" transform="translate(291.969,-357.211)">
+			<title>Dynamic connector.48</title>
+			<desc>[SI]</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(23250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.7402" cy="588.189" width="40" height="17.6036"/>
+			<path d="M0 588.19 L40.44 588.19" class="st2"/>
+			<rect v:rectContext="textBkgnd" x="18.4412" y="583.389" width="10.598" height="9.59985" class="st9"/>
+			<text x="18.44" y="590.59" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>[SI]</text>		</g>
+		<g id="shape49-53" v:mID="49" v:groupContext="shape" v:layerMember="0" transform="translate(457.795,-338.219)">
+			<title>Decisione.49</title>
+			<desc>Finché rimangono parole</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(24250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.748" cy="569.197" width="67.92" height="39.1181"/>
+			<path d="M0 569.2 L40.75 543.12 L81.5 569.2 L40.75 595.28 L0 569.2 Z" class="st12"/>
+			<text x="11.48" y="566.8" class="st13" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Finché rimangono <tspan
+						x="30.32" dy="1.2em" class="st6">parole</tspan></text>		</g>
+		<g id="shape50-57" v:mID="50" v:groupContext="shape" v:layerMember="1" transform="translate(410.315,-357.211)">
+			<title>Dynamic connector.50</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(25250):26"/>
+			</v:userDefs>
+			<path d="M0 588.19 L40.44 588.19" class="st2"/>
+		</g>
+		<g id="shape51-62" v:mID="51" v:groupContext="shape" v:layerMember="1" transform="translate(505.63,-338.219)">
+			<title>Dynamic connector.51</title>
+			<desc>[NO]</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(26250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-7.08661" cy="616.252" width="40" height="17.6036"/>
+			<path d="M-7.09 595.28 L-7.09 630.19" class="st2"/>
+			<rect v:rectContext="textBkgnd" x="-14.7704" y="611.452" width="15.3674" height="9.59985" class="st9"/>
+			<text x="-14.77" y="618.65" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>[NO]</text>		</g>
+		<g id="shape52-69" v:mID="52" v:groupContext="shape" v:layerMember="1" transform="translate(539.291,-357.211)">
+			<title>Dynamic connector.52</title>
+			<desc>[SI]</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(27250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.7402" cy="588.189" width="40" height="17.6036"/>
+			<path d="M0 588.19 L40.44 588.19" class="st2"/>
+			<rect v:rectContext="textBkgnd" x="18.4412" y="583.389" width="10.598" height="9.59985" class="st9"/>
+			<text x="18.44" y="590.59" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>[SI]</text>		</g>
+		<g id="shape53-76" v:mID="53" v:groupContext="shape" v:layerMember="0" transform="translate(586.772,-343.038)">
+			<title>Processo.53</title>
+			<desc>Genera posizione random</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(28250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="7.22" y="571.62" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Genera posizione <tspan
+						x="22.61" dy="1.2em" class="st6">random</tspan></text>		</g>
+		<g id="shape54-80" v:mID="54" v:groupContext="shape" v:layerMember="0" transform="translate(586.772,-419.482)">
+			<title>Processo.54</title>
+			<desc>Piazza la parola nella matrice</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(29250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="10.46" y="571.62" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Piazza la parola <tspan
+						x="14.24" dy="1.2em" class="st6">nella matrice</tspan></text>		</g>
+		<g id="shape55-84" v:mID="55" v:groupContext="shape" v:layerMember="1" transform="translate(615.118,-385.558)">
+			<title>Dynamic connector.55</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(30250):26"/>
+			</v:userDefs>
+			<path d="M7.09 595.28 L7.09 568.39" class="st2"/>
+		</g>
+		<g id="shape56-89" v:mID="56" v:groupContext="shape" v:layerMember="1" transform="translate(586.772,-440.742)">
+			<title>Dynamic connector.56</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(31250):26"/>
+			</v:userDefs>
+			<path d="M0 595.28 L-88.23 595.28 L-88.23 638.6" class="st2"/>
+		</g>
+		<g id="shape57-94" v:mID="57" v:groupContext="shape" v:layerMember="0" transform="translate(463.11,-189.967)">
+			<title>Processo.57</title>
+			<desc>Mostra lista parole dal dizionario</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(32250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="4.79" y="571.62" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Mostra lista parole <tspan
+						x="13.53" dy="1.2em" class="st6">dal dizionario</tspan></text>		</g>
+		<g id="shape59-98" v:mID="59" v:groupContext="shape" v:layerMember="0" transform="translate(599.173,-189.967)">
+			<title>Processo.59</title>
+			<desc>Attendere input parola finale</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(33250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="9.4" y="571.62" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Attendere input <tspan
+						x="15.11" dy="1.2em" class="st6">parola finale</tspan></text>		</g>
+		<g id="shape60-102" v:mID="60" v:groupContext="shape" v:layerMember="0" transform="translate(722.835,-189.967)">
+			<title>Decisione.60</title>
+			<desc>Input valido?</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(34250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="59.06" height="31.8898"/>
+			<path d="M0 574.02 L35.43 552.76 L70.87 574.02 L35.43 595.28 L0 574.02 Z" class="st7"/>
+			<text x="14.25" y="576.42" class="st8" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Input valido?</text>		</g>
+		<g id="shape61-105" v:mID="61" v:groupContext="shape" v:layerMember="1" transform="translate(751.181,-232.487)">
+			<title>Dynamic connector.61</title>
+			<desc>[NO]</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(35250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="574.016" width="40" height="17.6036"/>
+			<path d="M7.09 595.28 L7.09 559.8" class="st2"/>
+			<rect v:rectContext="textBkgnd" x="-0.597163" y="569.216" width="15.3674" height="9.59985" class="st9"/>
+			<text x="-0.6" y="576.42" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>[NO]</text>		</g>
+		<g id="shape62-112" v:mID="62" v:groupContext="shape" v:layerMember="0" transform="translate(722.835,-275.006)">
+			<title>Processo.62</title>
+			<desc>Mostra errore</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(36250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="12.51" y="576.42" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Mostra errore</text>		</g>
+		<g id="shape63-115" v:mID="63" v:groupContext="shape" v:layerMember="1" transform="translate(722.835,-296.266)">
+			<title>Dynamic connector.63</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(37250):26"/>
+			</v:userDefs>
+			<path d="M0 595.28 L-88.23 595.28 L-88.23 652.02" class="st2"/>
+		</g>
+		<g id="shape64-120" v:mID="64" v:groupContext="shape" v:layerMember="1" transform="translate(533.976,-204.14)">
+			<title>Dynamic connector.64</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(38250):26"/>
+			</v:userDefs>
+			<path d="M0 588.19 L58.16 588.19" class="st2"/>
+		</g>
+		<g id="shape65-125" v:mID="65" v:groupContext="shape" v:layerMember="1" transform="translate(670.039,-204.14)">
+			<title>Dynamic connector.65</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(39250):26"/>
+			</v:userDefs>
+			<path d="M0 588.19 L45.76 588.19" class="st2"/>
+		</g>
+		<g id="shape66-130" v:mID="66" v:groupContext="shape" v:layerMember="1" transform="translate(758.268,-189.967)">
+			<title>Dynamic connector.66</title>
+			<desc>[SI]</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(40250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-26.3976" cy="630.709" width="40" height="17.6036"/>
+			<path d="M0 595.28 L0 630.71 L-81.19 630.71" class="st2"/>
+			<rect v:rectContext="textBkgnd" x="-31.6966" y="625.909" width="10.598" height="9.59985" class="st9"/>
+			<text x="-31.7" y="633.11" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>[SI]</text>		</g>
+		<g id="shape67-137" v:mID="67" v:groupContext="shape" v:layerMember="0" transform="translate(599.173,-133.274)">
+			<title>Processo.67</title>
+			<desc>Inserisci parola nella matrice</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(41250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="2.28" y="571.62" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Inserisci parola nella <tspan
+						x="22.99" dy="1.2em" class="st6">matrice</tspan></text>		</g>
+		<g id="shape68-141" v:mID="68" v:groupContext="shape" v:layerMember="0" transform="translate(463.11,-253.747)">
+			<title>Processo.68</title>
+			<desc>Stampa griglia</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(42250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="12.39" y="576.42" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Stampa griglia</text>		</g>
+		<g id="shape69-144" v:mID="69" v:groupContext="shape" v:layerMember="1" transform="translate(491.457,-253.747)">
+			<title>Dynamic connector.69</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(43250):26"/>
+			</v:userDefs>
+			<path d="M7.09 595.28 L7.09 609.5" class="st2"/>
+		</g>
+		<g id="shape70-149" v:mID="70" v:groupContext="shape" v:layerMember="0" transform="translate(463.11,-133.274)">
+			<title>Processo.70</title>
+			<desc>Stampa griglia</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(44250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="574.016" width="70.87" height="42.5197"/>
+			<rect x="0" y="552.756" width="70.8661" height="42.5197" class="st4"/>
+			<text x="12.39" y="576.42" class="st5" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Stampa griglia</text>		</g>
+		<g id="shape71-152" v:mID="71" v:groupContext="shape" v:layerMember="1" transform="translate(599.173,-147.447)">
+			<title>Dynamic connector.71</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(45250):26"/>
+			</v:userDefs>
+			<path d="M0 588.19 L-58.16 588.19" class="st2"/>
+		</g>
+		<g id="shape72-157" v:mID="72" v:groupContext="shape" v:layerMember="1" transform="translate(463.11,-147.447)">
+			<title>Dynamic connector.72</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(46250):26"/>
+			</v:userDefs>
+			<path d="M0 588.19 L-198.19 588.19" class="st2"/>
+		</g>
+		<g id="shape73-162" v:mID="73" v:groupContext="shape" v:layerMember="0" transform="translate(114.095,-425.243)">
+			<title>Inizio/Fine</title>
+			<desc>Pulsante «Genera» premuto</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Costo" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Numero processo" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Proprietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Funzione" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Data inizio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Data fine" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Stato" v:prompt="" v:type="4"
+						v:format=";Non iniziato;In corso;Completato;Rinviato;In attesa di input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1040" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.39370078740157):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.39370078740157):24"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(47250):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="581.102" width="70.87" height="28.3465"/>
+			<path d="M14.17 595.28 L56.69 595.28 A14.1732 14.1732 -180 0 0 56.69 566.93 L14.17 566.93 A14.1732 14.1732 -180 1 0 14.17
+						 595.28 Z" class="st7"/>
+			<text x="4.52" y="578.7" class="st8" v:langID="2064"><v:paragraph v:horizAlign="1"/><v:tabList/>Pulsante «Genera» <tspan
+						x="21.2" dy="1.2em" class="st6">premuto</tspan></text>		</g>
+	</g>
+</svg>
