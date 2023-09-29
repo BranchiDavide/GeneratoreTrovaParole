@@ -1,25 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css" />
     <title>Generatore Trova Parole</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="title">
-        <h1>Generatore Trova Parole</h1>
+      <h1>Generatore Trova Parole</h1>
     </div>
+    <br />
+    <br />
     <div class="page-container">
+      <div class="info-box">
+        <center>
+          <div class="final-words-div">
+            <h3>Parole finali proposte:</h3>
+            <table id="finalWordsTable">
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+          <div class="chars-info-div">
+            <p>
+              Caratteri inseriti:
+              <span id="insertedCharsCount" class="info-chars-span">0</span>
+            </p>
+            <p>Caratteri minimi: <span class="info-chars-span">140</span></p>
+            <p>Caratteri massimi: <span class="info-chars-span">147</span></p>
+          </div>
+        </center>
+      </div>
+      <center>
         <div class="page-box">
-            <div class="insert-title-box">
-                <input type="text" placeholder="Inserisci titolo">
+          <br />
+          <div class="insert-title-box">
+            <input type="text" placeholder="Inserisci titolo" id="titleInput"/>
+          </div>
+          <div class="table-box">
+            <br />
+            <br />
+            <br />
+            <br />
+            <center>
+              <table id="mainTable">
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+            </center>
+          </div>
+          <center>
+            <br />
+            <br />
+            <br />
+            <div class="insert-words-box">
+              <table id="wordsTable">
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="
+                        visibility: visible;
+                        font-family: Arial, FontAwesome;
+                      "
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="word-input"
+                      placeholder="&#xf055; Inserire parola"
+                      style="font-family: Arial, FontAwesome"
+                    />
+                  </td>
+                </tr>
+              </table>
             </div>
+          </center>
+          <br />
+          <br />
+          <center>
+            <div class="insert-finalword-box">
+              <input
+                disabled
+                type="text"
+                id="finalWordInput"
+                placeholder="&#xf055; Inserire parola finale"
+                style="font-family: Arial, FontAwesome"
+              />
+            </div>
+          </center>
+          <br />
+          <br />
         </div>
-        <div class="info-box">
-
+      </center>
+      <br />
+      <center>
+        <div class="button-box">
+          <button id="genBtn">Genera</button>
+          <button id="exportBtn" disabled>Esporta</button>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <button id="modifyBtn">Modifica dizionario</button>
         </div>
+      </center>
     </div>
-</body>
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+  <script src="js/input-manager.js"></script>
 </html>
