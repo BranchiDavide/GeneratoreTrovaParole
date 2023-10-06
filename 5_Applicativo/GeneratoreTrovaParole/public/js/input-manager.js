@@ -15,32 +15,42 @@ for(let input of allInputs){
     });
 }
 let lastAdded = 0;
+let allAdded = false;
 for(let i = 0; i < wordsInput.length; i++){
     wordsInput[i].addEventListener("keyup", () =>{
         if(wordsInput[i].value.trim() != ""){
             if(i != wordsInput.length - 1){
                 wordsInput[i + 1].style.visibility = "visible";
-                lastAdded = i + 1;
-                console.log(wordsInput[i+1].style.visibility);
-            }else{
-                lastAdded = i;
             }
         }else{
-            //if(i != wordsInput.length - 1 && i!= 0){
-                let lastOne;
-                for(let j = i + 1; j <= lastAdded; j++){
-                    if(wordsInput[j].value != ""){
-                        wordsInput[j -1].value = wordsInput[j].value;
-                        changeBorderInput(wordsInput[j-1]);
+            if(i != wordsInput.length - 1){
+                if(wordsInput[i + 1].value.trim() == ""){
+                    wordsInput[i + 1].style.visibility = "hidden";
+                    changeBorderInput(wordsInput[i]);
+                }else{
+                    let current = i;
+                    let j = current + 1;
+                    while(wordsInput[j].value.trim() != ""){
+                        wordsInput[current].value = wordsInput[j].value;
+                        if(j + 1 != wordsInput.length){
+                            current++;
+                            j++;
+                        }else{
+                            break;
+                        }
+                    }
+                    if(wordsInput[j].value.trim() != ""){
+                        wordsInput[j].value = "";
+                        changeBorderInput(wordsInput[j]);
                     }else{
-                        lastOne = j
+                        wordsInput[j].value = "";
+                        wordsInput[j].style.visibility = "hidden";
+                        wordsInput[current].value = "";
+                        changeBorderInput(wordsInput[current]);
                     }
                 }
-                wordsInput[lastOne].style.visibility = "hidden";
-                wordsInput[lastOne - 1].value = "";
-                changeBorderInput(wordsInput[lastOne - 1]);
-                lastAdded = lastOne - 1;
-            //}
+            }
+            changeBorderInput(wordsInput[i]);
         }
     });
 }
