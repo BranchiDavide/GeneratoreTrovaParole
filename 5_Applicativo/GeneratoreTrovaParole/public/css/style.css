@@ -129,3 +129,6 @@
 .final-words-div{
     visibility: hidden;
 }
+#insertedCharsCount{
+  color: red;
+}

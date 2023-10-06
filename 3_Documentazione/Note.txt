@@ -1,4 +1,4 @@
 06.10.23
-- Punto 2.3 Troppo breve
-- Punto 3.1 Troppo breve
-- Mancano didascalie Immagini
+- Punto 2.3 Troppo breve	--> fatto
+- Punto 3.1 Troppo breve	--> fatto
+- Mancano didascalie Immagini	--> fatto
