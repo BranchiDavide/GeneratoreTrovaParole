@@ -13,7 +13,7 @@ function changeBorderInput(input){
         if(input.value.trim().length > 15){
             if(input.id != "titleInput"){
                 input.style.border = "1px solid red";
-                input.setAttribute("title", "La parola non può superare 15 caratteri");
+                input.setAttribute("title", "La parola non può superare 15 caratteri, verranno troncati i caratteri in eccedenza");
             }
         }else{
             input.style.border = "none";
@@ -30,7 +30,13 @@ let charCounter = 0;
 function updateCharsCount(){
     charCounter = 0
     for(let input of wordsInput){
-        charCounter += input.value.trim().length;
+        if(input.value.trim().length <= 15){
+            //Se la parola finale supera 15 carateri quelli in eccedenza non
+            //vengono contati, in quanto verranno successivamente troncati
+            charCounter += input.value.trim().length;
+        }else{
+            charCounter += 15;
+        }
     }
     insertedCharsCount.innerText = charCounter;
     if(charCounter < 140 || charCounter > 147){
