@@ -99,6 +99,7 @@
 #modifyBtn:hover,
 #genBtn:hover {
   opacity: 0.7;
+  cursor: pointer;
 }
 .info-box {
   width: 24%;

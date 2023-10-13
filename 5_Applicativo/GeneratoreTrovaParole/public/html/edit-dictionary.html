@@ -6,21 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Generatore Trova Parole - Dizionario</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/edit-dictionary-style.css">
+    <link rel="stylesheet" href="../css/edit-dictionary-style.css" />
     <script src="../lib/js/fontawsome.js"></script>
   </head>
   <body>
     <div class="title">
       <h1>Generatore Trova Parole</h1>
     </div>
-    <br>
-    <div class="exit-div" onclick="window.history.back()">
-        <i class="fa-solid fa-chevron-left fa-2xl"></i><span id="exitSpan">Esci</span>
+    <br />
+    <div class="sticky-div">
+      <div class="exit-div" onclick="window.history.back()">
+        <i class="fa-solid fa-chevron-left fa-2xl"></i
+        ><span id="exitSpan">Esci</span>
+      </div>
+      <br>
+      <br>
+      <br>
+      <button class="saveBtn">Salva modifiche</button>
     </div>
-    <br>
-    <br>
-    <br>
+    <br />
     <h3>Modifica dizionario</h3>
+    <br />
+    <center>
+      <div id="tableCenter"></div>
+      <div id="addWordContainer">
+        <input
+          type="text"
+          id="addWord"
+          placeholder="&#xf055; Aggiungi parola"
+          style="font-family: Arial, FontAwesome"
+        />
+      </div>
+    </center>
   </body>
   <script src="../js/load-dictionary.js"></script>
 </html>
