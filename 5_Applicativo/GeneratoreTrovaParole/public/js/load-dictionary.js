@@ -15,7 +15,7 @@ window.onload = function(){
                 loadTable(100); //Carica le prime 100 righe della tabella
                 displayTable(); //Mostra la tabella
             }else{
-                //Errore nel la richiesta del dizionario fallisca
+                //Errore nel caso la richiesta del dizionario fallisca
                 alert("Errore nel caricamento del dizionario, status code: " + this.status);
             }
        }
