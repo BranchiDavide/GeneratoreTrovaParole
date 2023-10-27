@@ -41,6 +41,7 @@
   height: 40px;
   width: 30px;
   border-collapse: collapse;
+  text-align: center;
 }
 .insert-words-box {
   width: 80%;

@@ -157,7 +157,7 @@ function isWordPlaceable(row, column, len, direction, word){
             let valid = true;
             for(let j = column; j >= column - len; j--){
                 if(grid[row][j] != "" && grid[row][j] != word[charIndex]){
-                    valid = true;
+                    valid = false;
                 }
                 if(grid[row][j] == word[charIndex]){
                     console.log(`Intersezione? valid: ${valid} grid: ${grid[row][j]} word: ${word[charIndex]}`)
@@ -329,13 +329,14 @@ function displayTable(){
 }
 
 function generateTable(){
+    let impossiblePlacement = [];
     for(let word of words){
         word = word.toUpperCase();
         let len = word.length - 1;
         let validDirections = [];
         //Per ogni cella della griglia
         for(let i = 0; i < grid.length; i++){
-            for(let j = 0; j < grid.length; j++){
+            for(let j = 0; j < grid[i].length; j++){
                 let tmpDir = [];
                 //Controllare in quali direzioni è possibile andare
                 for(const key in Direction){
@@ -345,151 +346,37 @@ function generateTable(){
                 }
                 //Controllare se nelle direzioni in cui è possibile andare
                 //sia anche possibile piazzare la parola
-                for(let k = 0; k < tmpDir.length; k++){
-                    if(isWordPlaceable(tmpDir[k][0], tmpDir[k][1], tmpDir[k][2], tmpDir[k][3], word)){
-                        validDirections.push([tmpDir[k][0], tmpDir[k][1], tmpDir[k][2], tmpDir[k][3], word]);
+                if(tmpDir.length != 0){
+                    for(let k = 0; k < tmpDir.length; k++){
+                        if(isWordPlaceable(tmpDir[k][0], tmpDir[k][1], tmpDir[k][2], tmpDir[k][3], word)){
+                            validDirections.push([tmpDir[k][0], tmpDir[k][1], tmpDir[k][2], tmpDir[k][3], word]);
+                        }
                     }
                 }
             }
         }
         console.log("Placing possibilities: " + validDirections.length);
-        placeWord(validDirections);
+        if(validDirections.length == 0){
+            console.log("IMPOSSIBILE PIAZZARE --> " + word)
+            impossiblePlacement.push(word);
+        }else{
+            placeWord(validDirections);
+        }
         console.log(grid);
-        /*for(let riga of grid){
-            let str = "";
-            for(let cella of riga){
-                str += cella + " ";
-            }
-            console.log(str)
-        }*/
     }
     displayTable();
-
-
-
-
-    //Vecchio algoritmo
-    /*for(let word of words){
-        let allValid = true;
-        let len = word.length - 1;
-        let coords = [];
-        let direction = -1;
-        do{
-            coords = [];
-            direction = -1;
-            allValid = true;
-            let validCoords = false;
-            let validDirection = false;
-            while(!validCoords){
-                let row = random(0,9);
-                let column = random(0,14);
-                if(grid[row][column] == ""){
-                    coords[0] = row;
-                    coords[1] = column;
-                    validCoords = true;
+    if(impossiblePlacement.length != 0){
+        for(let word of impossiblePlacement){
+            for(let input of inputs){
+                if(input.value.trim().toUpperCase() == word){
+                    input.style.border = "2px solid orange";
                 }
             }
-            let dirChose = [];
-            while(!validDirection){
-                let dir = random(0,2); //0 --> orizzontale, 1 --> verticale, 2 --> diagonale
-                if(dirChose.includes(dir)){
-                    if(dirChose.length == 3){
-                        allValid = false;
-                        break;
-                    }else{
-                        continue;
-                    }
-                }
-                dirChose.push(dir);
-                switch(dir){
-                    case 0:
-                        if(coords[1] + len <= 14){
-                            let valid = true;
-                            let charIndex = 0;
-                            for(let i = coords[1]; i < coords[1] + len; i++){
-                                console.log("dir 0, coords: ", coords[0],coords[1], " i: " ,i);
-                                if(grid[coords[0]][i] != "" && grid[coords[0]][i] != word[charIndex]){
-                                    valid = false;
-                                    console.log(grid[coords[0]][i], word[charIndex])
-                                }
-                                charIndex++;
-                            }
-                            if(valid){
-                                validDirection = true;
-                                direction = dir;
-                            }
-                        }
-                        break;
-                    case 1:
-                        if(coords[0] + len <= 9){
-                            let valid = true;
-                            let charIndex = 0;
-                            for(let i = coords[0]; i < coords[0] + len; i++){
-                                console.log("dir 1, coords: ", coords[0],coords[1], " i: " ,i);
-                                if(grid[i][coords[1]] != "" && grid[i][coords[1]] != word[charIndex]){
-                                    valid = false;
-                                    console.log(grid[coords[i]][1], word[charIndex])
-                                }
-                                charIndex++;
-                            }
-                            if(valid){
-                                validDirection = true;
-                                direction = dir;
-                            }
-                        }
-                        break;
-                    case 2:
-                        if(coords[0] + len <= 9 && coords[1] + len <= 14){
-                            let valid = true;
-                            let i = coords[0];
-                            for(let j = coords[1]; j < coords[1] + len; j++){
-                                console.log("dir 2, coords: ", coords[0],coords[1], " i: " ,i, " j: ", j);
-                                if(grid[i][j] != ""){
-                                    valid = false;
-                                }
-                                i++;
-                            }
-                            if(valid){
-                                validDirection = true;
-                                direction = dir;
-                            }
-                        }
-                        break;
-                }
-            }    
-        }while(!allValid);
-        placeWord(word, len, coords, direction);
-    console.log(grid);
-    }*/
-}
-/*
-function placeWord(word, len, coords, direction){
-    let charIndex = 0;
-    len = len + 1;
-    switch(direction){
-        case 0:
-            for(let i = coords[1]; i < coords[1] + len; i++){
-                grid[coords[0]][i] = word[charIndex];
-                charIndex++;
-            }
-            break;
-        case 1:
-            for(let i = coords[0]; i < coords[0] + len; i++){
-                grid[i][coords[1]] = word[charIndex];
-                charIndex++;
-            }
-            break;
-        case 2:
-            let i = coords[0];
-            for(let j = coords[1]; j < coords[1] + len; j++){
-                grid[i][j] = word[charIndex];
-                i++;
-                charIndex++;
-            }
-            break;
+        }
     }
+
 }
-*/
+
 function rand(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
