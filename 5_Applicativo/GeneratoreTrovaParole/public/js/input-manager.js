@@ -59,6 +59,9 @@ for(let input of allInputs){
     });
 }
 
+/*
+Ciclo per assegnare ad ogni input delle parole l'evento keyup
+*/
 for(let i = 0; i < wordsInput.length; i++){
     //Evento per gestire l'aggiunta o la rimozione delle parole dagli input
     wordsInput[i].addEventListener("keyup", () =>{
@@ -66,6 +69,10 @@ for(let i = 0; i < wordsInput.length; i++){
     });
 }
 
+/**
+ * Funzione per resettare tutti gli input delle parole che non possono
+ * essere piazzate nella griglia
+ */
 function resetNotPlaceableWords(){
     for(let i = 0; i < wordsInput.length; i++){
         checkInputs(i);
@@ -115,11 +122,16 @@ function checkInputs(i){
         changeBorderInput(wordsInput[i]);
     }
 }
+
 let finalWordInput = document.getElementById("finalWordInput");
 finalWordInput.addEventListener("keyup", () => {
     checkFinalWordInput();
 });
 
+/**
+ * Funzione per controllare l'input della parola finale e togliere/aggiungere il bordo
+ * in base all'evenienza
+ */
 function checkFinalWordInput(){
     if(finalWordInput.value.trim().length >= countEmptySpaces()){
         finalWordInput.style.border = "1px solid red";
@@ -133,11 +145,18 @@ function checkFinalWordInput(){
     }
 }
 
+/**
+ * Funzione per inserire nell'input della parola una parola passata come parametro
+ * @param word parola finale da inserire nell'input
+ */
 function insertOnFinalWordBox(word){
     finalWordInput.value = word;
     checkFinalWordInput();
 }
 
+/**
+ * Funzione per disabilitare tutti gli input delle parole
+ */
 function disableAllWordInputs(){
     for(let input of wordsInput){
         input.setAttribute("disabled","");
@@ -148,6 +167,9 @@ function disableAllWordInputs(){
     }
 }
 
+/**
+ * Funzione per disabilitare l'input della parola finale
+ */
 function disableFinalWordInput(){
     finalWordInput.setAttribute("disabled","");
 }

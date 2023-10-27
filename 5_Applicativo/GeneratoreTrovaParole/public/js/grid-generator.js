@@ -3,6 +3,11 @@ let alreadyGenerated = false;
 let grid = [];
 let inputs = document.getElementsByClassName("word-input");
 let words = [];
+
+/**
+ * Funzione per inizializzare la matrice grid, in ogni posizione della
+ * matrice viene inserita una stringa vuota
+ */
 function initGrid(){
     grid = [];
     for(let i = 0; i < 10; i++){
@@ -13,7 +18,7 @@ function initGrid(){
     }
 }
 genBtn.addEventListener("click", () =>{
-    if(!alreadyGenerated){
+    if(!alreadyGenerated){ //Controllo per verificare se la griglia è già stata generata
         //charCounter = 142; //TMP!
         if(charCounter >= 140 && charCounter <= 147){
             initGrid();
@@ -33,12 +38,12 @@ genBtn.addEventListener("click", () =>{
         }else{
             alert("Numero di caratteri massimi/minimi non rispettato, impossibile generare la griglia");
         }
-    }else{
+    }else{ //Se la griglia è già stata generata
         //Parola finale da inserire
         let fw = document.getElementById("finalWordInput").value.trim();
         if(fw != ""){
             if(fw.length > countEmptySpaces()){
-                fw = fw.substring(0, countEmptySpaces());
+                fw = fw.substring(0, countEmptySpaces()); //Tronca la parola finale in base al numero di spazi vuoti
             }
             placeFinalWord(fw);
             fillEmptyCells();
@@ -53,6 +58,7 @@ genBtn.addEventListener("click", () =>{
         }
     }
 });
+//Costante per assegnare ad ogni direzione un valore intero
 const Direction = {
     UP: 0,
     UP_RIGHT: 1,
@@ -63,6 +69,18 @@ const Direction = {
     LEFT: 6,
     UP_LEFT: 7
 }
+
+/**
+ * Funzione per verificare se a partire da una determinata cella della griglia
+ * è possibile piazzare una parola in una determinata posizione
+ * la funzione controlla se c'è abbastanza spazio per posizionare la parola
+ * nella direzione passata come parametro
+ * @param i coordinata della riga
+ * @param j coordinata della colonna
+ * @param len lunghezza della parola da piazzare
+ * @param direction direzione in cui piazzare la parola (costante Direction)
+ * @returns true se c'è abbastanza spazio per la parola, false altrimenti
+ */
 function isValidDirection(i, j, len, direction){
     switch(direction){
         case Direction.UP:
@@ -83,6 +101,20 @@ function isValidDirection(i, j, len, direction){
             return i - len >= 0 && j - len >= 0;
     }
 }
+
+/**
+ * Funzione che controlla se a partire da una determinata cella della griglia
+ * è possibile piazzare la parola
+ * la funzione controlla se partendo dalla cella e proseguendo nella direzione passata come
+ * parametro è possibile posizionare la parola, viene controllato se nella direzione ci sono spazi
+ * vuoti oppure lettere uguali che quindi possono essere sovrascritte
+ * @param row coordinata della riga
+ * @param column coordinata della colonna
+ * @param len lunghezza della parola da piazzare
+ * @param direction direzione in cui controllare (costante Direction)
+ * @param word parola da piazzare
+ * @returns true se è possibile piazzare la parola nella direzione, false altrimenti
+ */
 function isWordPlaceable(row, column, len, direction, word){
     switch(direction){
         case Direction.UP: {
@@ -183,6 +215,12 @@ function isWordPlaceable(row, column, len, direction, word){
         }
     }
 }
+
+/**
+ * Funzione che piazza effettivamente ogni carattere della parola nella griglia
+ * La direzione viene scelta randomicamente da un array passato come parametro
+ * @param validDirections array contenente la lista di direzioni possibili in cui può essere piazzata la parola
+ */
 function placeWord(validDirections){
     let random = rand(0, validDirections.length-1);
     let direction = validDirections[random];
@@ -268,6 +306,9 @@ function placeWord(validDirections){
     }
 }
 
+/**
+ * Funzione che mostra a schermo la tabella html
+ */
 function displayTable(){
     let rows = document.querySelectorAll("#mainTable tr");
     for(let i = 0; i < rows.length; i++){
@@ -278,37 +319,48 @@ function displayTable(){
     }
 }
 
+/**
+ * Funzione che genera la tabella, questa funzione contiene tutta la logica
+ * per prendere ogni parola passata come input e posizionarla correttamente nella griglia
+ */
 async function generateTable(){
-    let impossiblePlacement = [];
-    for(let word of words){
+    let impossiblePlacement = []; //Parole che sono impossibili da piazzare
+    for(let word of words){ //Per ogni parola inserita come input
         word = word.toUpperCase();
         let len = word.length - 1;
+        //Array in cui verranno memorizzate le direzioni valide in cui è possibile piazzare la parola
         let validDirections = [];
         //Per ogni cella della griglia
         for(let i = 0; i < grid.length; i++){
             for(let j = 0; j < grid[i].length; j++){
+                //Array per memorizzare temporaneamente le direzioni in cui c'è spazio per posizionare la parola
                 let tmpDir = [];
                 //Controllare in quali direzioni è possibile andare
                 for(const key in Direction){
                     if(isValidDirection(i, j, len, Direction[key])){
-                        tmpDir.push([i, j, len, Direction[key]]);
+                        tmpDir.push([i, j, len, Direction[key]]); //Aggiunta alle direzioni temporanee i dati validi per quella cella
                     }
                 }
                 //Controllare se nelle direzioni in cui è possibile andare
                 //sia anche possibile piazzare la parola
-                if(tmpDir.length != 0){
+                if(tmpDir.length != 0){ //Se ci sono direzioni temporanee in cui è possibile andare 
                     for(let k = 0; k < tmpDir.length; k++){
                         if(isWordPlaceable(tmpDir[k][0], tmpDir[k][1], tmpDir[k][2], tmpDir[k][3], word)){
+                            //Conferma che nella direzione temporanea è effettivamente possibile piazzare la parola
+                            //Aggiunta dei dati all'array delle direzioni definitivamente valide
                             validDirections.push([tmpDir[k][0], tmpDir[k][1], tmpDir[k][2], tmpDir[k][3], word]);
                         }
                     }
                 }
             }
         }
+        //Se non ci sono direzioni in cui è possibile posizionare la parola
+        //(la parola non è piazzabile)
         if(validDirections.length == 0){
-            impossiblePlacement.push(word);
+            impossiblePlacement.push(word); //Aggiunta della parola all'array di parole non piazzabili
         }else{
-            placeWord(validDirections);
+            //Se ci sono delle direzioni valide in cui posizionare la parola
+            placeWord(validDirections); //Piazzare la parola nella griglia
         }
     }
     displayTable();
