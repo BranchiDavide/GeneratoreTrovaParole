@@ -137,3 +137,10 @@
 #insertedCharsCount{
   color: red;
 }
+#finalWordsTable tr:hover{
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+input{
+  background-color: white;
+}
