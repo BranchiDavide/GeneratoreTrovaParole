@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/print.css">
     <link rel="stylesheet" href="../lib/css/sweetalert.css">
-    <script src="../lib/js/sweetalert.js"></script>
+    <script src="lib/js/sweetalert.js"></script>
     <script src="lib/js/fontawsome.js"></script>
+    <script src="lib/js/html2canvas.min.js"></script>
     <title>Generatore Trova Parole</title>
   </head>
   <body>
     <div class="title">
       <h1>Generatore Trova Parole</h1>
     </div>
-    <br />
-    <br />
+    <br class="initBr"/>
+    <br class="initBr"/>
     <div class="page-container">
       <div class="info-box">
         <center>
@@ -67,12 +69,13 @@
       <center>
         <div class="page-box">
           <br />
+          <br>
           <div class="insert-title-box">
             <input type="text" placeholder="Inserisci titolo" id="titleInput"/>
           </div>
           <div class="table-box">
-            <br />
-            <br />
+            <br class="initBr"/>
+            <br class="initBr"/>
             <br />
             <br />
             <center>
@@ -535,7 +538,7 @@
       <center>
         <div class="button-box">
           <button id="genBtn">Genera</button>
-          <button id="exportBtn" disabled>Esporta</button>
+          <button id="exportBtn" class="disabled-btn" disabled>Esporta</button>
           <br />
           <br />
           <br />
@@ -545,12 +548,13 @@
         </div>
       </center>
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
+    <br class="initBr"/>
+    <br class="initBr"/>
+    <br class="initBr"/>
+    <br class="initBr"/>
   </body>
   <script src="js/final-word-chooser.js"></script>
   <script src="js/input-manager.js"></script>
   <script src="js/grid-generator.js"></script>
+  <script src="js/page-export.js"></script>
 </html>

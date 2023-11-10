@@ -2,6 +2,7 @@ let genBtn = document.getElementById("genBtn");
 let alreadyGenerated = false;
 let grid = [];
 let inputs = document.getElementsByClassName("word-input");
+let exportBtn = document.getElementById("exportBtn");
 let words = [];
 
 /**
@@ -19,7 +20,7 @@ function initGrid(){
 }
 genBtn.addEventListener("click", () =>{
     if(!alreadyGenerated){ //Controllo per verificare se la griglia è già stata generata
-        //charCounter = 142; //TMP!
+        charCounter = 142; //TMP!
         if(charCounter >= 140 && charCounter <= 147){
             initGrid();
             words = [];
@@ -58,6 +59,8 @@ genBtn.addEventListener("click", () =>{
             disableFinalWordInput();
             document.getElementsByClassName("final-words-div")[0].style.visibility = "hidden";
             genBtn.setAttribute("disabled", "");
+            exportBtn.removeAttribute("disabled");
+            exportBtn.setAttribute("class", "btn-hover");
             genBtn.style.opacity = "0.5";
             genBtn.style.cursor = "default";
             Swal.fire({

@@ -1,0 +1,9 @@
+@media print{
+    .page-box{
+        width: 95%;
+        margin-top: 0;
+    }
+    .title, .final-words-div, .chars-info-div, .button-box, .initBr{
+        display: none;
+    }
+}
