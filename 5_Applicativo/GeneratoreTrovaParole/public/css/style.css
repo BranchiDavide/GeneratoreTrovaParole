@@ -73,6 +73,7 @@
   border: 1px dashed black;
   text-align: center;
   height: 30px;
+  width: 70%;
 }
 .button-box {
   width: 50%;
@@ -124,6 +125,7 @@
   width: 100%;
   border-collapse: collapse;
   text-align: center;
+  font-size: 19px;
 }
 .info-chars-span{
     font-weight: bold;
@@ -144,4 +146,7 @@
 }
 input{
   background-color: white;
+}
+.swal-small{
+  width:400px !important;
 }

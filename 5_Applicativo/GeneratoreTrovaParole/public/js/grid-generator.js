@@ -32,11 +32,17 @@ genBtn.addEventListener("click", () =>{
                     words.push(value);
                 }
             }
+            //Ordinare l'array dalla parola più lunga (indice 0) a quella più corta
             words = words.sort((a, b) => b.length - a.length);
             generateTable();
             alreadyGenerated = true;
         }else{
-            alert("Numero di caratteri massimi/minimi non rispettato, impossibile generare la griglia");
+            //alert("Numero di caratteri massimi/minimi non rispettato, impossibile generare la griglia");
+            Swal.fire({
+                icon: 'error',
+                title: 'Impossibile generare la griglia!',
+                text: 'Numero di caratteri massimi/minimi non rispettato',
+            });
         }
     }else{ //Se la griglia è già stata generata
         //Parola finale da inserire
@@ -48,13 +54,22 @@ genBtn.addEventListener("click", () =>{
             placeFinalWord(fw);
             fillEmptyCells();
             displayTable();
+            document.getElementById("finalWordInput").value = fw;
             disableFinalWordInput();
             document.getElementsByClassName("final-words-div")[0].style.visibility = "hidden";
             genBtn.setAttribute("disabled", "");
             genBtn.style.opacity = "0.5";
             genBtn.style.cursor = "default";
+            Swal.fire({
+                icon: 'success',
+                title: 'Griglia generata',
+            });
         }else{
-            alert("È necessario inserire la parola finale!");
+            //alert("È necessario inserire la parola finale!");
+            Swal.fire({
+                icon: 'warning',
+                title: 'È necessario inserire la parola finale!',
+            });
         }
     }
 });
@@ -333,7 +348,8 @@ async function generateTable(){
         //Per ogni cella della griglia
         for(let i = 0; i < grid.length; i++){
             for(let j = 0; j < grid[i].length; j++){
-                //Array per memorizzare temporaneamente le direzioni in cui c'è spazio per posizionare la parola
+                //tmpDir --> Array per memorizzare temporaneamente le direzioni in cui c'è spazio per posizionare la parola
+                //Nell'array viene inserito: [riga, colonna, lunghezza della parola, direzione (costante Direction)]
                 let tmpDir = [];
                 //Controllare in quali direzioni è possibile andare
                 for(const key in Direction){
@@ -374,7 +390,13 @@ async function generateTable(){
             }
         }
         await sleep(200);
-        alert("Impossibile piazzare le parole arancioni");
+        //alert("Impossibile piazzare le parole arancioni");
+        await Swal.fire({
+            icon: 'info',
+            position: 'top',
+            customClass: 'swal-small',
+            title: 'Impossibile piazzare le parole arancioni',
+        });
         //Rimozione parole impossibili da piazzare
         let restart = false;
         do{
@@ -383,7 +405,7 @@ async function generateTable(){
                     for(let input of inputs){
                         if(input.value.trim().toUpperCase() == word){
                             input.value = "";
-                            //Funzione di input-manager.js, rimuovere le parole impossibili da inserire e spstare le altre
+                            //Funzione di input-manager.js, per rimuovere le parole impossibili da inserire e spstare le altre
                             resetNotPlaceableWords();
                             restart = true;
                             impossiblePlacement = removeItemOnce(impossiblePlacement, word);
@@ -398,12 +420,21 @@ async function generateTable(){
     }
     document.getElementsByClassName("chars-info-div")[0].style.visibility = "hidden"; //Nascondere indicatori caratteri
     disableAllWordInputs();
-    alert(`Inserire la parola finale (max. ${countEmptySpaces()} caratteri) e premere su genera`);
+    //alert(`Inserire la parola finale (max. ${countEmptySpaces()} caratteri) e premere su genera`);
+    Swal.fire({
+        icon: 'info',
+        title: 'Inserire la parola finale e premere genera',
+        text: `parola finale di max. ${countEmptySpaces()} caratteri`,
+    });
     document.getElementById("finalWordInput").removeAttribute("disabled");
-    proposeFinalWords();
+    proposeFinalWords(); //Funzione di final-word-chooser.js per mostrare le parole finali proposte
 }
 
 let emptySpacesCoords = [];
+/**
+ * Funzione per contare il numero ci celle vuote nella griglia
+ * @returns numero di celle vuote nella grilgia
+ */
 function countEmptySpaces(){
     let count = 0;
     emptySpacesCoords = [];
@@ -418,6 +449,10 @@ function countEmptySpaces(){
     return count;
 }
 
+/**
+ * Funzione che piazza la parola finale passata come parametro casualmente nella griglia
+ * @param fw final word (parola finale) da piazzare
+ */
 function placeFinalWord(fw){
     countEmptySpaces();
     fw = fw.toUpperCase();
@@ -428,6 +463,9 @@ function placeFinalWord(fw){
     }
 }
 
+/**
+ * Funzione per riempire tutte le celle rimaste vuote con lettere casuali
+ */
 function fillEmptyCells(){
     const alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
     countEmptySpaces();
@@ -436,14 +474,30 @@ function fillEmptyCells(){
     }
 }
 
+/**
+ * Funzione per generare un numero random fra min e max inclusi
+ * @param min numero minimo incluso
+ * @param max numero massimo incluso
+ * @returns 
+ */
 function rand(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
+/**
+ * Funzione per fermare l'esecuzione del programma per i millisecondi passati come parametro
+ * @param ms millisecondi per cui fermare il programma
+ */
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+/**
+ * Funzione utile per rimuovere un elemento da un array una sola volta
+ * @param arr array da cui rimuovere l'elemento
+ * @param value valore da rimuovere dall'array
+ * @returns nuovo array senza l'elemento che era da rimuovere
+ */
 function removeItemOnce(arr, value) {
     let index = arr.indexOf(value);
     if (index > -1) {

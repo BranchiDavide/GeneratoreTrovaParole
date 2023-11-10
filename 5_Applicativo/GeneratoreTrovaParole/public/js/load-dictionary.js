@@ -16,7 +16,14 @@ window.onload = function(){
                 displayTable(); //Mostra la tabella
             }else{
                 //Errore nel caso la richiesta del dizionario fallisca
-                alert("Errore nel caricamento del dizionario, status code: " + this.status);
+                //alert("Errore nel caricamento del dizionario, status code: " + this.status);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Errore nel caricamento del dizionario',
+                    text: 'status code: ' + this.status,
+                }).then((result) => {
+                    window.history.back();
+                });
             }
        }
     };

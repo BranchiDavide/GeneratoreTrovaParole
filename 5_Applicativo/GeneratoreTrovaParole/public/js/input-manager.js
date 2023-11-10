@@ -133,7 +133,7 @@ finalWordInput.addEventListener("keyup", () => {
  * in base all'evenienza
  */
 function checkFinalWordInput(){
-    if(finalWordInput.value.trim().length >= countEmptySpaces()){
+    if(finalWordInput.value.trim().length > countEmptySpaces()){
         finalWordInput.style.border = "1px solid red";
         finalWordInput.setAttribute("title", `La parola finale non può superare ${countEmptySpaces()} caratteri, verranno troncati i caratteri in eccedenza`);
     }else{
@@ -146,7 +146,7 @@ function checkFinalWordInput(){
 }
 
 /**
- * Funzione per inserire nell'input della parola una parola passata come parametro
+ * Funzione per inserire nell'input della parola finale una parola passata come parametro
  * @param word parola finale da inserire nell'input
  */
 function insertOnFinalWordBox(word){
@@ -171,5 +171,6 @@ function disableAllWordInputs(){
  * Funzione per disabilitare l'input della parola finale
  */
 function disableFinalWordInput(){
+    finalWordInput.style.border = "none";
     finalWordInput.setAttribute("disabled","");
 }
