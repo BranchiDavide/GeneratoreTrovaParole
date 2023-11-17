@@ -1,28 +1,17 @@
 let finalWordsTable = document.getElementById("finalWordsTable");
-let dictionary;
-
 /**
  * Funzione che propone le parole finali.
- * Questa funzione si occupa di effettuare la richiesta del dizionario e di
- * chiamare le altre funzioni che cercano delle parole finali casualmente
- * e le mostrano nella tabella html
+ * Questa funzione si occupa di chiamare le altre funzioni
+ * che cercano delle parole finali casualmente e le mostrano nella tabella html
  */
 function proposeFinalWords(){
     document.getElementsByClassName("final-words-div")[0].style.visibility = "visible";
-    let xhttp = new XMLHttpRequest();
-    xhttp.open("GET", "get-dictionary"); //Richiesta del dizionario
-    xhttp.send();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-            if(this.status == 200){
-                dictionary = this.responseXML.querySelectorAll('LENGTH2,LENGTH3,LENGTH4,LENGTH5,LENGTH6,LENGTH7,LENGTH8,LENGTH9,LENGTH10,LENGTH11,LENGTH12,LENGTH13,LENGTH14,LENGTH15');
-                showFinalWords(searchWords());//Chiamata alla funzione per mostrare la tabella html
-                setTrListeners();//Creazione dei listener per il clic sulle righe della tabella
-            }else{
-                finalWordsTable.innerHTML = `<p>Impossibile caricare le parole finali dal dizionario</p><br><p>Errore nella richiesta, codice: ${this.status}</p>`;
-            }
-       }
-    };
+    if(dictionaryRequestError == null){
+        showFinalWords(searchWords());//Chiamata alla funzione per mostrare la tabella html
+        setTrListeners();//Creazione dei listener per il clic sulle righe della tabella
+    }else{
+        finalWordsTable.innerHTML = `<p>Impossibile caricare le parole finali dal dizionario</p><br><p>Errore nella richiesta, codice: ${dictionaryRequestError}</p>`;
+    }
 }
 
 /**

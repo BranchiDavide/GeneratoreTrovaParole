@@ -22,7 +22,7 @@ window.onload = function(){
                     title: 'Errore nel caricamento del dizionario',
                     text: 'status code: ' + this.status,
                 }).then((result) => {
-                    window.history.back();
+                    window.close();
                 });
             }
        }

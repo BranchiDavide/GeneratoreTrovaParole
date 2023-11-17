@@ -10,6 +10,10 @@
     <script src="lib/js/sweetalert.js"></script>
     <script src="lib/js/fontawsome.js"></script>
     <script src="lib/js/html2canvas.min.js"></script>
+    <script src="js/dictionary-request.js"></script>
+    <script src="js/utils.js"></script>
+    <!--TEST SCRIPT-->
+    <script src="test/gen-TEST.js"></script>
     <title>Generatore Trova Parole</title>
   </head>
   <body>
@@ -544,7 +548,7 @@
           <br />
           <br />
           <br />
-          <button id="modifyBtn" onclick="window.location.href = '/edit-dictionary'; ">Modifica dizionario</button>
+          <button id="modifyBtn" onclick="window.open('/edit-dictionary','_blank'); ">Modifica dizionario</button>
         </div>
       </center>
     </div>
@@ -554,6 +558,7 @@
     <br class="initBr"/>
   </body>
   <script src="js/final-word-chooser.js"></script>
+  <script src="js/auto-gen.js"></script>
   <script src="js/input-manager.js"></script>
   <script src="js/grid-generator.js"></script>
   <script src="js/page-export.js"></script>
