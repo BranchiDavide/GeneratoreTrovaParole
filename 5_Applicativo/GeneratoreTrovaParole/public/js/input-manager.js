@@ -15,6 +15,9 @@ function changeBorderInput(input){
             if(input.id != "titleInput"){
                 input.style.border = "1px solid red";
                 input.setAttribute("title", "La parola non può superare 15 caratteri, verranno troncati i caratteri in eccedenza");
+            }else{
+                input.style.border = "none";
+                input.removeAttribute("title");
             }
         }else{
             input.style.border = "none";
@@ -43,8 +46,10 @@ function updateCharsCount(){
     insertedCharsCount.innerText = charCounter;
     if(charCounter < 140 || charCounter > 147){
         insertedCharsCount.style.color = "red";
+        disableGenBtn();
     }else{
         insertedCharsCount.style.color = "green";
+        enableGenBtn();
     }
 }
 
@@ -173,4 +178,31 @@ function disableAllWordInputs(){
 function disableFinalWordInput(){
     finalWordInput.style.border = "none";
     finalWordInput.setAttribute("disabled","");
+}
+
+/**
+ * Funzione che tronca il titolo a 60 caratteri massimi di lunghezza
+ */
+function truncateTitle(){
+    let titleValue = titleInput.value.trim();
+    if(titleValue.length > 60){
+        titleValue = titleValue.substring(0, 60);
+    }
+    titleInput.value = titleValue;
+}
+
+function enableGenBtn(){
+    genBtn.removeAttribute("disabled");
+    genBtn.removeAttribute("class");
+    genBtn.setAttribute("class", "btn-hover");
+}
+
+function disableGenBtn(){
+    genBtn.setAttribute("disabled", "");
+    genBtn.setAttribute("class", "btn-hover-dis")
+}
+
+function enableExportBtn(){
+    exportBtn.removeAttribute("disabled");
+    exportBtn.setAttribute("class", "btn-hover");
 }

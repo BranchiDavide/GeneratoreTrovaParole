@@ -87,17 +87,29 @@
   width: 50%;
   padding: 10px;
 }
-#genBtn {
+#genBtn, #autoGenBtn{
   float: right;
   background-color: #4bcbff;
 }
+.btn-hover-dis{
+  opacity: 0.5;
+  cursor: default;
+}
+.btn-hover-dis:hover{
+  cursor: default;
+}
 #exportBtn,
 #modifyBtn,
-#genBtn {
+#genBtn,
+#autoGenBtn {
   padding: 20px;
   font-size: 14px;
   color: white;
   width: 160px;
+}
+#autoGenBtn{
+  width: 200px;
+  margin-right: 10px;
 }
 #exportBtn,
 #modifyBtn {
@@ -107,8 +119,7 @@
 .disabled-btn{
   opacity: 0.7;
 }
-#modifyBtn:hover,
-#genBtn:hover, .gen-type-btn:hover {
+#modifyBtn:hover, .gen-type-btn:hover {
   opacity: 0.7;
   cursor: pointer;
 }

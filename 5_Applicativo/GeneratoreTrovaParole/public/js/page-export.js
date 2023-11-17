@@ -33,6 +33,7 @@ document.getElementById("exportBtn").addEventListener("click", ()=>{
 function exportAsImage(type){
     let title = document.getElementById("titleInput");
     let newTitle = document.createElement('p');
+    truncateTitle();
     newTitle.className = "p-title";
     newTitle.innerHTML = title.value.trim();
     let center = document.createElement('center');
@@ -58,5 +59,6 @@ function overrideElement(oldElement, newElement){
 }
 
 function exportAsPdf(){
+    truncateTitle();
     window.print();
 }
