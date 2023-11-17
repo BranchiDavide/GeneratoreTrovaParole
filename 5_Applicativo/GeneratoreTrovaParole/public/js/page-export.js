@@ -50,14 +50,6 @@ function exportAsImage(type){
     overrideElement(center, title);
 }
 
-function overrideElement(oldElement, newElement){
-    if(oldElement){
-        parent = oldElement.parentNode;
-        parent.insertBefore(newElement, oldElement);
-        parent.removeChild(oldElement);
-    }
-}
-
 function exportAsPdf(){
     truncateTitle();
     window.print();

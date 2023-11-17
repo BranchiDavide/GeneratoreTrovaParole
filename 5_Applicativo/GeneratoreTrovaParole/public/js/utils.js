@@ -34,3 +34,11 @@ function removeItemOnce(arr, value) {
     }
     return arr;
 }
+
+function overrideElement(oldElement, newElement){
+    if(oldElement){
+        parent = oldElement.parentNode;
+        parent.insertBefore(newElement, oldElement);
+        parent.removeChild(oldElement);
+    }
+}

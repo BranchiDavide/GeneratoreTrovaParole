@@ -14,6 +14,7 @@ window.onload = function(){
                 dictionary = this.responseXML.querySelectorAll('LENGTH2,LENGTH3,LENGTH4,LENGTH5,LENGTH6,LENGTH7,LENGTH8,LENGTH9,LENGTH10,LENGTH11,LENGTH12,LENGTH13,LENGTH14,LENGTH15');
                 loadTable(100); //Carica le prime 100 righe della tabella
                 displayTable(); //Mostra la tabella
+                setIconsListeners();
             }else{
                 //Errore nel caso la richiesta del dizionario fallisca
                 //alert("Errore nel caricamento del dizionario, status code: " + this.status);
