@@ -10,8 +10,9 @@ allInputs.push(titleInput);
  * @param input input a cui cambiare il bordo
  */
 function changeBorderInput(input){
-    if(input.value.trim() != ""){
-        if(input.value.trim().length > 15){
+    let inpVal = input.value.trim();
+    if(inpVal != ""){
+        if(inpVal.trim().length > 15){
             if(input.id != "titleInput"){
                 input.style.border = "1px solid red";
                 input.setAttribute("title", "La parola non può superare 15 caratteri, verranno troncati i caratteri in eccedenza");
@@ -22,6 +23,10 @@ function changeBorderInput(input){
         }else{
             input.style.border = "none";
             input.removeAttribute("title");
+        }
+        if(checkDuplicates(inpVal)){
+            input.style.border = "1px solid gold";
+            input.setAttribute("title", "Parola ripetuta");
         }
     }else{
         input.style.border = "1px dashed black";
@@ -191,18 +196,47 @@ function truncateTitle(){
     titleInput.value = titleValue;
 }
 
+/**
+ * Funzione per attivare il bottone della generazione
+ */
 function enableGenBtn(){
     genBtn.removeAttribute("disabled");
     genBtn.removeAttribute("class");
     genBtn.setAttribute("class", "btn-hover");
 }
 
+/**
+ * Funzione per disabilitare il bottone della generazione
+ */
 function disableGenBtn(){
     genBtn.setAttribute("disabled", "");
     genBtn.setAttribute("class", "btn-hover-dis")
 }
 
+/**
+ * Funzione per abilitare il bottone dell'esportazione
+ */
 function enableExportBtn(){
     exportBtn.removeAttribute("disabled");
     exportBtn.setAttribute("class", "btn-hover");
+}
+
+/**
+ * Funzione per controllare se ci sono della parole duplicate negli input
+ * @param inputValue parola da cercare
+ * @returns true se la parola è presente più di una volta, false altrimenti
+ */
+function checkDuplicates(inputValue){
+    let counter = 0;
+    inputValue = inputValue.toUpperCase();
+    for(let input of wordsInput){
+        if(input.value.trim().toUpperCase() == inputValue){
+            counter++;
+        }
+    }
+    if(counter > 1){
+        return true;
+    }else{
+        return false;
+    }
 }

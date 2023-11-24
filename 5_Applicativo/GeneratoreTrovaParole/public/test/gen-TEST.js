@@ -6,6 +6,10 @@
  * console del browser.
  */
 
+/**
+ * Funzione che chiama l'auto generazione, e successivamente evidenzia tutte le
+ * parole con dei colori casuali
+ */
 async function genWithColorsTest(){
     await autoGen();
     let colorGrid = grid;
@@ -109,6 +113,11 @@ async function genWithColorsTest(){
     console.log('%cGrid with colors successfully generated', 'color: green');
 }
 
+/**
+ * Funzione che genera automaticamente la griglia n volte e per ogni
+ * generazione controlla se tutte le parole sono state effettivamente piazzate
+ * @param n numero di volte per cui generare la griglia
+ */
 async function correctGenTest(n){
     let errors = [];
     for(let i = 0; i < n; i++){
@@ -229,6 +238,10 @@ async function correctGenTest(n){
     }
 }
 
+/**
+ * Funzione che ritorna un colore rgb casuale
+ * @returns array contenente le componenti [red, green, blue]
+ */
 function getRndColor(){
     return [rand(0,255),rand(0,255),rand(0,255)];
 }

@@ -35,6 +35,11 @@ function removeItemOnce(arr, value) {
     return arr;
 }
 
+/**
+ * Funzione per sovrascrivere un elemento html
+ * @param oldElement elemento da sostituire
+ * @param newElement nuovo elemento con qui sostituire quello vecchio
+ */
 function overrideElement(oldElement, newElement){
     if(oldElement){
         parent = oldElement.parentNode;

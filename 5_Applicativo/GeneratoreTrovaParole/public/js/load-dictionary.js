@@ -43,7 +43,7 @@ function loadTable(rowsToLoad){
     arrayTable.pop(); //Rimuovere chiusura tabella
     arrayTable.pop(); //Rimuovere bottone "Carica di più"
     for(let i = currentLoadedRow; i < (currentLoadedRow + rowsToLoad) && i < dictionary.length; i++){
-       arrayTable.push(`<tr><td>${i+1}</td><td class="word-td">${dictionary[i].childNodes[0].nodeValue}<i class="fa-solid fa-x fa-lg tb-icon x-icon"></i><i class="fa-solid fa-pen-to-square fa-lg tb-icon m-icon"></i></td></tr>`);
+       arrayTable.push(`<tr><td>${i+1}</td><td class="word-td">${dictionary[i].childNodes[0].nodeValue}<i class="fa-solid fa-x fa-lg tb-icon x-icon"></i><i class="fa-solid fa-pen-to-square fa-lg tb-icon m-icon"></i><i class="fa-solid fa-check hide-icon fa-lg tb-icon v-icon"></i></td></tr>`);
     }
     currentLoadedRow += rowsToLoad;
     if(currentLoadedRow < dictionary.length){ //Controllo per la fine del dizionario
@@ -62,10 +62,11 @@ function displayTable(){
     document.getElementById("tableCenter").innerHTML = arrayTable.toString().replaceAll(",","");
     if(newListenerToSet){ //Aggiungere un nuovo listener su "Carica di più"
         document.getElementById("tdShowMore").addEventListener("click", () => {
-            //Qaundo "Carica di più" viene premuto, vengono caricate 100 righe aggiuntive alla tabella
+            //Quando "Carica di più" viene premuto, vengono caricate 100 righe aggiuntive alla tabella
             //e viene nuovamente mostrata
             loadTable(100);
             displayTable();
+            setIconsListeners();
         });
     }
 }

@@ -1,5 +1,5 @@
 document.getElementById("exportBtn").addEventListener("click", ()=>{
-    Swal.fire({
+    Swal.fire({ //Alert per la selezione del formato
         icon: 'question',
         title: 'Esportazione della pagina',
         input: 'select',
@@ -30,6 +30,10 @@ document.getElementById("exportBtn").addEventListener("click", ()=>{
     });
 });
 
+/**
+ * Funzione che esporta la pagina come immagine
+ * @param type stringa contenente il formato dell'immagine (jpeg o png)
+ */
 function exportAsImage(type){
     let title = document.getElementById("titleInput");
     let newTitle = document.createElement('p');
@@ -50,6 +54,10 @@ function exportAsImage(type){
     overrideElement(center, title);
 }
 
+/**
+ * Funzione per esportare la pagina come pdf, la funzione apre
+ * solamente la pagina di stampa del browser
+ */
 function exportAsPdf(){
     truncateTitle();
     window.print();

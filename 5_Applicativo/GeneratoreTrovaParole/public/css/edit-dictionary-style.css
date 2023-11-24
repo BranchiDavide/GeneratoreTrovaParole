@@ -23,6 +23,7 @@ h3{
     border-collapse: collapse;
     padding: 10px;
     text-align: center;
+    font-size: 18px;
 }
 .word-td{
     width: 400px;
@@ -60,7 +61,7 @@ h3{
 #tableCenter, #addWordContainer{
     width: 450px;
 }
-.saveBtn{
+.saveBtn, .addWordBtn{
     background-color: #3799bf;
     padding: 20px;
     font-size: 14px;
@@ -71,4 +72,14 @@ h3{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+}
+.hide-icon{
+    display: none !important;
+}
+.edit-input{
+    font-size: 18px;
+}
+.saveBtn:hover, .addWordBtn:hover{
+    cursor: pointer;
+    opacity: 0.5;
 }
