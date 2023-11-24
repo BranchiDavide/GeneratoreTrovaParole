@@ -40,9 +40,14 @@ app.get("/get-dictionary", (req, res) =>{
 app.post("/change-dictionary", (req, res) =>{
     let dictionaryChanges = req.body.dictionaryChanges;
     dictionaryManager.executeAllActions(dictionaryChanges);
-    if(dictionaryManager.errors.length != 0){
-        res.sendStatus(500);
-    }else{
+    res.sendStatus(200);
+});
+
+app.post("/reset-dictionary", (req,res) =>{
+    if(req.body.confirm){
+        dictionaryManager.resetDictionary();
         res.sendStatus(200);
+    }else{
+        res.sendStatus(400);
     }
 });

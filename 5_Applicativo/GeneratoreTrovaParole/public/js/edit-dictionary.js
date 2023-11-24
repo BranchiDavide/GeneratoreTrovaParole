@@ -180,3 +180,42 @@ document.getElementsByClassName("exit-div")[0].addEventListener("click", ()=>{
 });
 
 document.getElementsByClassName("saveBtn")[0].addEventListener("click", sendData);
+
+document.getElementsByClassName("resetBtn")[0].addEventListener("click", () =>{
+    Swal.fire({
+        title: "Resettare il dizionario?",
+        text: `Resettando il dizionario tutte le modifiche apportate fino ad ora verranno
+         perse e si tornerà alla versione di default del dizionario`,
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        cancelButtonText: "Annulla",
+        confirmButtonText: "Si"
+      }).then((result) => {
+        if (result.isConfirmed) {
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "/reset-dictionary", true);
+            xhttp.setRequestHeader('Content-Type', 'application/json');
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4) {
+                    if(this.status == 200){
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Dizionario resettato con successo!',
+                        }).then((result) => {
+                            window.location.reload();
+                        });
+                    }else{
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Impossibile resettare il dizionario!',
+                            text: `Codice errore: ${this.status}`,
+                        });
+                    }
+               }
+            }
+            xhttp.send(JSON.stringify({confirm: true}));
+        }
+      });
+});

@@ -51,4 +51,13 @@ function insertAction(id, value){
     id--;
     words.splice(id, 0, value);
 }
-module.exports = {executeAllActions, errors};
+function resetDictionary(){
+    const defaultPath = "dictionary-bkp/default-dictionary.xml";
+    fs.copyFile(defaultPath, 'dictionary.xml', (err) => {
+        errors.push("impossibile resettare il dizionario!");
+    });
+}
+function sanitizeInput(){
+    
+}
+module.exports = {executeAllActions, errors, resetDictionary};

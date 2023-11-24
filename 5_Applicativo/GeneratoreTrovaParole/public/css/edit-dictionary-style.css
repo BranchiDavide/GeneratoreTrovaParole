@@ -79,7 +79,14 @@ h3{
 .edit-input{
     font-size: 18px;
 }
-.saveBtn:hover, .addWordBtn:hover{
+.saveBtn:hover, .addWordBtn:hover, .resetBtn:hover{
     cursor: pointer;
     opacity: 0.5;
+}
+.resetBtn{
+    background-color: #ca3d3d;
+    padding: 20px;
+    font-size: 14px;
+    color: white;
+    width: 160px;
 }
