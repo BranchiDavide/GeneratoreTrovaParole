@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const dictionaryManager = require('./dictionary-manager.js');
 const app = express();
 const port = 3000;
 
@@ -17,6 +18,7 @@ const morganMiddleware = morgan(
     }
 );
 app.use(morganMiddleware);
+app.use(express.json());
 
 app.listen(port, () => {
     console.log("Server listening on port " + port);
@@ -26,9 +28,21 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) =>{
     res.sendFile(`${__dirname}/public/index.html`);
 });
+
 app.get('/edit-dictionary', (req, res) =>{
     res.sendFile(`${__dirname}/public/html/edit-dictionary.html`);
 });
+
 app.get("/get-dictionary", (req, res) =>{
     res.sendFile(`${__dirname}/dictionary.xml`)
+});
+
+app.post("/change-dictionary", (req, res) =>{
+    let dictionaryChanges = req.body.dictionaryChanges;
+    dictionaryManager.executeAllActions(dictionaryChanges);
+    if(dictionaryManager.errors.length != 0){
+        res.sendStatus(500);
+    }else{
+        res.sendStatus(200);
+    }
 });
