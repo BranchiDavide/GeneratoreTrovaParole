@@ -1,406 +1,406 @@
 <DICTIONARY>
-<LENGTH8>aquilone</LENGTH8>
-<LENGTH7>giraffa</LENGTH7>
-<LENGTH5>asino</LENGTH5>
-<LENGTH5>caldo</LENGTH5>
-<LENGTH5>pesca</LENGTH5>
-<LENGTH6>grazie</LENGTH6>
-<LENGTH4>topo</LENGTH4>
-<LENGTH4>bere</LENGTH4>
-<LENGTH7>maestro</LENGTH7>
-<LENGTH8>tulipano</LENGTH8>
-<LENGTH8>altalena</LENGTH8>
-<LENGTH11>asciugamano</LENGTH11>
-<LENGTH6>matite</LENGTH6>
-<LENGTH6>chiavi</LENGTH6>
-<LENGTH6>estate</LENGTH6>
-<LENGTH5>colla</LENGTH5>
-<LENGTH6>pancia</LENGTH6>
-<LENGTH7>calzino</LENGTH7>
-<LENGTH7>cipolla</LENGTH7>
-<LENGTH5>culla</LENGTH5>
-<LENGTH9>pescatore</LENGTH9>
-<LENGTH9>pantaloni</LENGTH9>
-<LENGTH9>pavimento</LENGTH9>
-<LENGTH10>bicicletta</LENGTH10>
-<LENGTH7>delfino</LENGTH7>
-<LENGTH6>ridere</LENGTH6>
-<LENGTH10>cioccolato</LENGTH10>
-<LENGTH6>scuola</LENGTH6>
-<LENGTH5>mamma</LENGTH5>
-<LENGTH6>nuvola</LENGTH6>
-<LENGTH7>ciotola</LENGTH7>
-<LENGTH4>pera</LENGTH4>
-<LENGTH4>pane</LENGTH4>
-<LENGTH6>panino</LENGTH6>
-<LENGTH6>scarpa</LENGTH6>
-<LENGTH8>occhiali</LENGTH8>
-<LENGTH7>gallina</LENGTH7>
-<LENGTH7>autobus</LENGTH7>
-<LENGTH6>foglie</LENGTH6>
-<LENGTH5>viola</LENGTH5>
-<LENGTH7>capanna</LENGTH7>
-<LENGTH5>madre</LENGTH5>
-<LENGTH5>cuore</LENGTH5>
-<LENGTH6>puzzle</LENGTH6>
-<LENGTH4>sole</LENGTH4>
-<LENGTH11>marciapiede</LENGTH11>
-<LENGTH6>pulito</LENGTH6>
-<LENGTH6>bianco</LENGTH6>
-<LENGTH8>elefante</LENGTH8>
-<LENGTH8>ghiaccio</LENGTH8>
-<LENGTH5>buono</LENGTH5>
-<LENGTH7>inverno</LENGTH7>
-<LENGTH8>silenzio</LENGTH8>
-<LENGTH7>pentola</LENGTH7>
-<LENGTH6>alunno</LENGTH6>
-<LENGTH10>passeggino</LENGTH10>
-<LENGTH7>arancia</LENGTH7>
-<LENGTH5>zucca</LENGTH5>
-<LENGTH8>lampione</LENGTH8>
-<LENGTH7>valigia</LENGTH7>
-<LENGTH6>piatto</LENGTH6>
-<LENGTH8>farfalla</LENGTH8>
-<LENGTH10>astronauta</LENGTH10>
-<LENGTH6>occhio</LENGTH6>
-<LENGTH7>giocare</LENGTH7>
-<LENGTH5>tazza</LENGTH5>
-<LENGTH5>pollo</LENGTH5>
-<LENGTH6>giallo</LENGTH6>
-<LENGTH8>granchio</LENGTH8>
-<LENGTH5>oliva</LENGTH5>
-<LENGTH5>acqua</LENGTH5>
-<LENGTH6>spalla</LENGTH6>
-<LENGTH9>dipingere</LENGTH9>
-<LENGTH11>coccodrillo</LENGTH11>
-<LENGTH4>vaso</LENGTH4>
-<LENGTH5>padre</LENGTH5>
-<LENGTH8>lanterna</LENGTH8>
-<LENGTH4>orso</LENGTH4>
-<LENGTH5>palla</LENGTH5>
-<LENGTH10>arcobaleno</LENGTH10>
-<LENGTH8>chitarra</LENGTH8>
-<LENGTH9>bottiglia</LENGTH9>
-<LENGTH12>sopracciglia</LENGTH12>
-<LENGTH4>ciao</LENGTH4>
-<LENGTH6>grande</LENGTH6>
-<LENGTH4>rosa</LENGTH4>
-<LENGTH5>segna</LENGTH5>
-<LENGTH8>pomodoro</LENGTH8>
-<LENGTH7>ragazzo</LENGTH7>
-<LENGTH5>gomma</LENGTH5>
-<LENGTH6>veloce</LENGTH6>
-<LENGTH10>palloncini</LENGTH10>
-<LENGTH4>moto</LENGTH4>
-<LENGTH6>banana</LENGTH6>
-<LENGTH6>tromba</LENGTH6>
-<LENGTH7>sedersi</LENGTH7>
-<LENGTH7>capelli</LENGTH7>
-<LENGTH6>grasso</LENGTH6>
-<LENGTH9>accendini</LENGTH9>
-<LENGTH11>NuovaParola</LENGTH11>
-<LENGTH5>razzo</LENGTH5>
-<LENGTH7>uccello</LENGTH7>
-<LENGTH11>sbadigliare</LENGTH11>
-<LENGTH3>sei</LENGTH3>
-<LENGTH8>mangiare</LENGTH8>
-<LENGTH5>sopra</LENGTH5>
-<LENGTH5>magro</LENGTH5>
-<LENGTH5>mocio</LENGTH5>
-<LENGTH5>gamba</LENGTH5>
-<LENGTH5>carta</LENGTH5>
-<LENGTH3>zia</LENGTH3>
-<LENGTH9>cavatappi</LENGTH9>
-<LENGTH2>io</LENGTH2>
-<LENGTH6>figlia</LENGTH6>
-<LENGTH7>armadio</LENGTH7>
-<LENGTH7>fulmine</LENGTH7>
-<LENGTH7>cuscino</LENGTH7>
-<LENGTH8>orologio</LENGTH8>
-<LENGTH8>spazzola</LENGTH8>
-<LENGTH5>scala</LENGTH5>
-<LENGTH6>aquila</LENGTH6>
-<LENGTH7>autunno</LENGTH7>
-<LENGTH8>pomodori</LENGTH8>
-<LENGTH5>ragno</LENGTH5>
-<LENGTH5>cesta</LENGTH5>
-<LENGTH8>cappello</LENGTH8>
-<LENGTH5>leone</LENGTH5>
-<LENGTH5>amico</LENGTH5>
-<LENGTH7>saltare</LENGTH7>
-<LENGTH6>foglia</LENGTH6>
-<LENGTH7>compito</LENGTH7>
-<LENGTH4>vite</LENGTH4>
-<LENGTH5>barba</LENGTH5>
-<LENGTH11>portafoglio</LENGTH11>
-<LENGTH8>soffitto</LENGTH8>
-<LENGTH5>gonna</LENGTH5>
-<LENGTH8>carrello</LENGTH8>
-<LENGTH6>camion</LENGTH6>
-<LENGTH5>gatto</LENGTH5>
-<LENGTH5>fiume</LENGTH5>
-<LENGTH5>nuovo</LENGTH5>
-<LENGTH5>aereo</LENGTH5>
-<LENGTH4>mano</LENGTH4>
-<LENGTH7>campana</LENGTH7>
-<LENGTH10>ombrellone</LENGTH10>
-<LENGTH7>vecchio</LENGTH7>
-<LENGTH7>quattro</LENGTH7>
-<LENGTH9>spaghetti</LENGTH9>
-<LENGTH6>matita</LENGTH6>
-<LENGTH8>pinzetta</LENGTH8>
-<LENGTH7>fragola</LENGTH7>
-<LENGTH3>due</LENGTH3>
-<LENGTH7>pioggia</LENGTH7>
-<LENGTH6>posate</LENGTH6>
-<LENGTH7>mutanda</LENGTH7>
-<LENGTH4>dadi</LENGTH4>
-<LENGTH9>falegname</LENGTH9>
-<LENGTH7>elmetto</LENGTH7>
-<LENGTH9>cucitrice</LENGTH9>
-<LENGTH6>statua</LENGTH6>
-<LENGTH6>pietra</LENGTH6>
-<LENGTH9>lucchetto</LENGTH9>
-<LENGTH6>frutta</LENGTH6>
-<LENGTH6>denaro</LENGTH6>
-<LENGTH8>serpente</LENGTH8>
-<LENGTH10>giocattoli</LENGTH10>
-<LENGTH6>limone</LENGTH6>
-<LENGTH7>cerchio</LENGTH7>
-<LENGTH6>chiave</LENGTH6>
-<LENGTH7>calzini</LENGTH7>
-<LENGTH6>carota</LENGTH6>
-<LENGTH10>tovagliolo</LENGTH10>
-<LENGTH6>colori</LENGTH6>
-<LENGTH5>letto</LENGTH5>
-<LENGTH9>triangolo</LENGTH9>
-<LENGTH11>apriscatole</LENGTH11>
-<LENGTH3>uno</LENGTH3>
-<LENGTH9>rubinetto</LENGTH9>
-<LENGTH5>sette</LENGTH5>
-<LENGTH4>gufo</LENGTH4>
-<LENGTH4>uova</LENGTH4>
-<LENGTH5>nonna</LENGTH5>
-<LENGTH5>pesce</LENGTH5>
-<LENGTH6>squalo</LENGTH6>
-<LENGTH7>pettine</LENGTH7>
-<LENGTH5>cuoco</LENGTH5>
-<LENGTH7>piccolo</LENGTH7>
-<LENGTH4>casa</LENGTH4>
-<LENGTH5>palma</LENGTH5>
-<LENGTH6>gelato</LENGTH6>
-<LENGTH4>erba</LENGTH4>
-<LENGTH5>polpo</LENGTH5>
-<LENGTH5>treno</LENGTH5>
-<LENGTH4>zero</LENGTH4>
-<LENGTH4>neve</LENGTH4>
-<LENGTH10>coccinella</LENGTH10>
-<LENGTH9>primavera</LENGTH9>
-<LENGTH3>ape</LENGTH3>
-<LENGTH5>porta</LENGTH5>
-<LENGTH5>spada</LENGTH5>
-<LENGTH8>peperone</LENGTH8>
-<LENGTH6>cinque</LENGTH6>
-<LENGTH6>yogurt</LENGTH6>
-<LENGTH7>vestiti</LENGTH7>
-<LENGTH5>latte</LENGTH5>
-<LENGTH6>ferita</LENGTH6>
-<LENGTH5>panda</LENGTH5>
-<LENGTH9>maglietta</LENGTH9>
-<LENGTH10>maccheroni</LENGTH10>
-<LENGTH5>presa</LENGTH5>
-<LENGTH8>fratello</LENGTH8>
-<LENGTH12>orsacchiotto</LENGTH12>
-<LENGTH5>rosso</LENGTH5>
-<LENGTH11>ginocchiera</LENGTH11>
-<LENGTH6>tavolo</LENGTH6>
-<LENGTH3>ago</LENGTH3>
-<LENGTH8>ombrello</LENGTH8>
-<LENGTH5>vasca</LENGTH5>
-<LENGTH7>lampada</LENGTH7>
-<LENGTH6>rosato</LENGTH6>
-<LENGTH7>marrone</LENGTH7>
-<LENGTH5>lento</LENGTH5>
-<LENGTH8>castello</LENGTH8>
-<LENGTH6>fiocco</LENGTH6>
-<LENGTH6>brocca</LENGTH6>
-<LENGTH7>padella</LENGTH7>
-<LENGTH7>camicia</LENGTH7>
-<LENGTH8>tovaglia</LENGTH8>
-<LENGTH7>cattivo</LENGTH7>
-<LENGTH7>ciuccio</LENGTH7>
-<LENGTH7>sorella</LENGTH7>
-<LENGTH5>scopa</LENGTH5>
-<LENGTH6>anatra</LENGTH6>
-<LENGTH7>pulcino</LENGTH7>
-<LENGTH12>appendiabiti</LENGTH12>
-<LENGTH7>lavello</LENGTH7>
-<LENGTH4>lupo</LENGTH4>
-<LENGTH8>giardino</LENGTH8>
-<LENGTH9>pigiamino</LENGTH9>
-<LENGTH8>quadrato</LENGTH8>
-<LENGTH5>verde</LENGTH5>
-<LENGTH8>telefono</LENGTH8>
-<LENGTH4>foca</LENGTH4>
-<LENGTH6>faccia</LENGTH6>
-<LENGTH5>cielo</LENGTH5>
-<LENGTH5>calze</LENGTH5>
-<LENGTH7>tappeto</LENGTH7>
-<LENGTH5>baffi</LENGTH5>
-<LENGTH5>bello</LENGTH5>
-<LENGTH9>cucchiaio</LENGTH9>
-<LENGTH6>freddo</LENGTH6>
-<LENGTH6>camera</LENGTH6>
-<LENGTH8>biscotto</LENGTH8>
-<LENGTH4>code</LENGTH4>
-<LENGTH7>leggere</LENGTH7>
-<LENGTH7>polsino</LENGTH7>
-<LENGTH5>zaino</LENGTH5>
-<LENGTH6>cinema</LENGTH6>
-<LENGTH7>correre</LENGTH7>
-<LENGTH4>luna</LENGTH4>
-<LENGTH6>chiodo</LENGTH6>
-<LENGTH7>lattuga</LENGTH7>
-<LENGTH11>televisione</LENGTH11>
-<LENGTH10>margherita</LENGTH10>
-<LENGTH7>pallone</LENGTH7>
-<LENGTH6>calcio</LENGTH6>
-<LENGTH8>coltello</LENGTH8>
-<LENGTH5>carne</LENGTH5>
-<LENGTH9>pantofole</LENGTH9>
-<LENGTH4>kiwi</LENGTH4>
-<LENGTH6>brutto</LENGTH6>
-<LENGTH6>cucina</LENGTH6>
-<LENGTH5>bosco</LENGTH5>
-<LENGTH4>taxi</LENGTH4>
-<LENGTH5>vento</LENGTH5>
-<LENGTH6>balena</LENGTH6>
-<LENGTH9>formaggio</LENGTH9>
-<LENGTH7>bambini</LENGTH7>
-<LENGTH4>filo</LENGTH4>
-<LENGTH4>mare</LENGTH4>
-<LENGTH6>pecora</LENGTH6>
-<LENGTH5>piede</LENGTH5>
-<LENGTH7>mutande</LENGTH7>
-<LENGTH8>orecchio</LENGTH8>
-<LENGTH4>auto</LENGTH4>
-<LENGTH5>tigre</LENGTH5>
-<LENGTH7>fontana</LENGTH7>
-<LENGTH10>automobile</LENGTH10>
-<LENGTH4>cane</LENGTH4>
-<LENGTH7>forbici</LENGTH7>
-<LENGTH6>strada</LENGTH6>
-<LENGTH9>camminare</LENGTH9>
-<LENGTH6>sporco</LENGTH6>
-<LENGTH8>triciclo</LENGTH8>
-<LENGTH5>libro</LENGTH5>
-<LENGTH8>poltrona</LENGTH8>
-<LENGTH3>blu</LENGTH3>
-<LENGTH5>sacco</LENGTH5>
-<LENGTH8>girasole</LENGTH8>
-<LENGTH4>cubo</LENGTH4>
-<LENGTH5>bagno</LENGTH5>
-<LENGTH9>lampadina</LENGTH9>
-<LENGTH9>lavandino</LENGTH9>
-<LENGTH7>scivolo</LENGTH7>
-<LENGTH7>pittore</LENGTH7>
-<LENGTH9>bicchiere</LENGTH9>
-<LENGTH6>patata</LENGTH6>
-<LENGTH5>nonno</LENGTH5>
-<LENGTH8>martello</LENGTH8>
-<LENGTH7>lavagna</LENGTH7>
-<LENGTH12>motocicletta</LENGTH12>
-<LENGTH5>torta</LENGTH5>
-<LENGTH7>cavallo</LENGTH7>
-<LENGTH4>pala</LENGTH4>
-<LENGTH5>bocca</LENGTH5>
-<LENGTH9>pellicano</LENGTH9>
-<LENGTH7>lattina</LENGTH7>
-<LENGTH5>sotto</LENGTH5>
-<LENGTH4>otto</LENGTH4>
-<LENGTH5>capra</LENGTH5>
-<LENGTH7>cestino</LENGTH7>
-<LENGTH2>no</LENGTH2>
-<LENGTH3>tre</LENGTH3>
-<LENGTH5>testa</LENGTH5>
-<LENGTH7>bambino</LENGTH7>
-<LENGTH7>parlare</LENGTH7>
-<LENGTH7>soldato</LENGTH7>
-<LENGTH9>pantalone</LENGTH9>
-<LENGTH5>dieci</LENGTH5>
-<LENGTH6>maiale</LENGTH6>
-<LENGTH7>scimmia</LENGTH7>
-<LENGTH8>computer</LENGTH8>
-<LENGTH9>lucertola</LENGTH9>
-<LENGTH8>coniglio</LENGTH8>
-<LENGTH8>cappotto</LENGTH8>
-<LENGTH4>nove</LENGTH4>
-<LENGTH8>finestra</LENGTH8>
-<LENGTH10>fischietto</LENGTH10>
-<LENGTH4>riso</LENGTH4>
-<LENGTH9>lavatrice</LENGTH9>
-<LENGTH4>rana</LENGTH4>
-<LENGTH9>venditore</LENGTH9>
-<LENGTH3>zio</LENGTH3>
-<LENGTH8>spiaggia</LENGTH8>
-<LENGTH8>semaforo</LENGTH8>
-<LENGTH6>piazza</LENGTH6>
-<LENGTH10>chiocciola</LENGTH10>
-<LENGTH9>ginocchio</LENGTH9>
-<LENGTH5>gesso</LENGTH5>
-<LENGTH4>dito</LENGTH4>
-<LENGTH5>borsa</LENGTH5>
-<LENGTH7>tamburo</LENGTH7>
-<LENGTH6>albero</LENGTH6>
-<LENGTH5>succo</LENGTH5>
-<LENGTH7>negozio</LENGTH7>
-<LENGTH8>fantasma</LENGTH8>
-<LENGTH5>pozzo</LENGTH5>
-<LENGTH4>muro</LENGTH4>
-<LENGTH6>graffe</LENGTH6>
-<LENGTH5>renna</LENGTH5>
-<LENGTH5>mosca</LENGTH5>
-<LENGTH9>forchetta</LENGTH9>
-<LENGTH5>barca</LENGTH5>
-<LENGTH10>elicottero</LENGTH10>
-<LENGTH9>hamburger</LENGTH9>
-<LENGTH4>mela</LENGTH4>
-<LENGTH6>stella</LENGTH6>
-<LENGTH4>naso</LENGTH4>
-<LENGTH8>piangere</LENGTH8>
-<LENGTH3>uva</LENGTH3>
-<LENGTH7>dormire</LENGTH7>
-<LENGTH8>gabbiano</LENGTH8>
-<LENGTH7>animale</LENGTH7>
-<LENGTH6>medico</LENGTH6>
-<LENGTH5>mucca</LENGTH5>
-<LENGTH5>corda</LENGTH5>
-<LENGTH9>tartaruga</LENGTH9>
-<LENGTH9>portavaso</LENGTH9>
-<LENGTH10>cappellino</LENGTH10>
-<LENGTH5>penna</LENGTH5>
-<LENGTH7>volante</LENGTH7>
-<LENGTH6>malato</LENGTH6>
-<LENGTH4>nero</LENGTH4>
-<LENGTH5>pelle</LENGTH5>
-<LENGTH8>dolcetto</LENGTH8>
-<LENGTH4>cibo</LENGTH4>
-<LENGTH7>braccio</LENGTH7>
-<LENGTH8>ciliegie</LENGTH8>
-<LENGTH5>mappa</LENGTH5>
-<LENGTH7>biberon</LENGTH7>
-<LENGTH8>famiglia</LENGTH8>
-<LENGTH6>divano</LENGTH6>
-<LENGTH5>sedia</LENGTH5>
-<LENGTH5>occhi</LENGTH5>
-<LENGTH7>vestito</LENGTH7>
-<LENGTH8>orecchie</LENGTH8>
-<LENGTH8>pinguino</LENGTH8>
-<LENGTH5>collo</LENGTH5>
-<LENGTH5>campo</LENGTH5>
-<LENGTH5>fiori</LENGTH5>
-<LENGTH7>stivale</LENGTH7>
-<LENGTH5>fiore</LENGTH5>
-<LENGTH6>anello</LENGTH6>
-<LENGTH8>montagna</LENGTH8>
+    <LENGTH8>aquilone</LENGTH8>
+    <LENGTH7>giraffa</LENGTH7>
+    <LENGTH5>asino</LENGTH5>
+    <LENGTH5>caldo</LENGTH5>
+    <LENGTH5>pesca</LENGTH5>
+    <LENGTH6>grazie</LENGTH6>
+    <LENGTH4>topo</LENGTH4>
+    <LENGTH4>bere</LENGTH4>
+    <LENGTH7>maestro</LENGTH7>
+    <LENGTH8>tulipano</LENGTH8>
+    <LENGTH8>altalena</LENGTH8>
+    <LENGTH11>asciugamano</LENGTH11>
+    <LENGTH6>matite</LENGTH6>
+    <LENGTH6>chiavi</LENGTH6>
+    <LENGTH6>estate</LENGTH6>
+    <LENGTH5>colla</LENGTH5>
+    <LENGTH6>pancia</LENGTH6>
+    <LENGTH7>calzino</LENGTH7>
+    <LENGTH7>cipolla</LENGTH7>
+    <LENGTH5>culla</LENGTH5>
+    <LENGTH9>pescatore</LENGTH9>
+    <LENGTH9>pantaloni</LENGTH9>
+    <LENGTH9>pavimento</LENGTH9>
+    <LENGTH10>bicicletta</LENGTH10>
+    <LENGTH7>delfino</LENGTH7>
+    <LENGTH6>ridere</LENGTH6>
+    <LENGTH10>cioccolato</LENGTH10>
+    <LENGTH6>scuola</LENGTH6>
+    <LENGTH5>mamma</LENGTH5>
+    <LENGTH6>nuvola</LENGTH6>
+    <LENGTH7>ciotola</LENGTH7>
+    <LENGTH4>pera</LENGTH4>
+    <LENGTH4>pane</LENGTH4>
+    <LENGTH6>panino</LENGTH6>
+    <LENGTH6>scarpa</LENGTH6>
+    <LENGTH8>occhiali</LENGTH8>
+    <LENGTH7>gallina</LENGTH7>
+    <LENGTH7>autobus</LENGTH7>
+    <LENGTH6>foglie</LENGTH6>
+    <LENGTH5>viola</LENGTH5>
+    <LENGTH7>capanna</LENGTH7>
+    <LENGTH5>madre</LENGTH5>
+    <LENGTH5>cuore</LENGTH5>
+    <LENGTH6>puzzle</LENGTH6>
+    <LENGTH4>sole</LENGTH4>
+    <LENGTH11>marciapiede</LENGTH11>
+    <LENGTH6>pulito</LENGTH6>
+    <LENGTH6>bianco</LENGTH6>
+    <LENGTH8>elefante</LENGTH8>
+    <LENGTH8>ghiaccio</LENGTH8>
+    <LENGTH5>buono</LENGTH5>
+    <LENGTH7>inverno</LENGTH7>
+    <LENGTH8>silenzio</LENGTH8>
+    <LENGTH7>pentola</LENGTH7>
+    <LENGTH6>alunno</LENGTH6>
+    <LENGTH10>passeggino</LENGTH10>
+    <LENGTH7>arancia</LENGTH7>
+    <LENGTH5>zucca</LENGTH5>
+    <LENGTH8>lampione</LENGTH8>
+    <LENGTH7>valigia</LENGTH7>
+    <LENGTH6>piatto</LENGTH6>
+    <LENGTH8>farfalla</LENGTH8>
+    <LENGTH10>astronauta</LENGTH10>
+    <LENGTH6>occhio</LENGTH6>
+    <LENGTH7>giocare</LENGTH7>
+    <LENGTH5>tazza</LENGTH5>
+    <LENGTH5>pollo</LENGTH5>
+    <LENGTH6>giallo</LENGTH6>
+    <LENGTH8>granchio</LENGTH8>
+    <LENGTH5>oliva</LENGTH5>
+    <LENGTH5>acqua</LENGTH5>
+    <LENGTH6>spalla</LENGTH6>
+    <LENGTH9>dipingere</LENGTH9>
+    <LENGTH11>coccodrillo</LENGTH11>
+    <LENGTH4>vaso</LENGTH4>
+    <LENGTH5>padre</LENGTH5>
+    <LENGTH8>lanterna</LENGTH8>
+    <LENGTH4>orso</LENGTH4>
+    <LENGTH5>palla</LENGTH5>
+    <LENGTH10>arcobaleno</LENGTH10>
+    <LENGTH8>chitarra</LENGTH8>
+    <LENGTH9>bottiglia</LENGTH9>
+    <LENGTH12>sopracciglia</LENGTH12>
+    <LENGTH4>ciao</LENGTH4>
+    <LENGTH6>grande</LENGTH6>
+    <LENGTH4>rosa</LENGTH4>
+    <LENGTH5>segna</LENGTH5>
+    <LENGTH8>pomodoro</LENGTH8>
+    <LENGTH7>ragazzo</LENGTH7>
+    <LENGTH5>gomma</LENGTH5>
+    <LENGTH6>veloce</LENGTH6>
+    <LENGTH10>palloncini</LENGTH10>
+    <LENGTH4>moto</LENGTH4>
+    <LENGTH6>banana</LENGTH6>
+    <LENGTH6>tromba</LENGTH6>
+    <LENGTH7>sedersi</LENGTH7>
+    <LENGTH7>capelli</LENGTH7>
+    <LENGTH6>grasso</LENGTH6>
+    <LENGTH7>ragazza</LENGTH7>
+    <LENGTH9>accendino</LENGTH9>
+    <LENGTH5>razzo</LENGTH5>
+    <LENGTH7>uccello</LENGTH7>
+    <LENGTH11>sbadigliare</LENGTH11>
+    <LENGTH3>sei</LENGTH3>
+    <LENGTH8>mangiare</LENGTH8>
+    <LENGTH5>sopra</LENGTH5>
+    <LENGTH5>magro</LENGTH5>
+    <LENGTH5>mocio</LENGTH5>
+    <LENGTH5>gamba</LENGTH5>
+    <LENGTH5>carta</LENGTH5>
+    <LENGTH3>zia</LENGTH3>
+    <LENGTH9>cavatappi</LENGTH9>
+    <LENGTH2>io</LENGTH2>
+    <LENGTH6>figlia</LENGTH6>
+    <LENGTH7>armadio</LENGTH7>
+    <LENGTH7>fulmine</LENGTH7>
+    <LENGTH7>cuscino</LENGTH7>
+    <LENGTH8>orologio</LENGTH8>
+    <LENGTH8>spazzola</LENGTH8>
+    <LENGTH5>scala</LENGTH5>
+    <LENGTH6>aquila</LENGTH6>
+    <LENGTH7>autunno</LENGTH7>
+    <LENGTH8>pomodori</LENGTH8>
+    <LENGTH5>ragno</LENGTH5>
+    <LENGTH5>cesta</LENGTH5>
+    <LENGTH8>cappello</LENGTH8>
+    <LENGTH5>leone</LENGTH5>
+    <LENGTH5>amico</LENGTH5>
+    <LENGTH7>saltare</LENGTH7>
+    <LENGTH6>foglia</LENGTH6>
+    <LENGTH7>compito</LENGTH7>
+    <LENGTH4>vite</LENGTH4>
+    <LENGTH5>barba</LENGTH5>
+    <LENGTH11>portafoglio</LENGTH11>
+    <LENGTH8>soffitto</LENGTH8>
+    <LENGTH5>gonna</LENGTH5>
+    <LENGTH8>carrello</LENGTH8>
+    <LENGTH6>camion</LENGTH6>
+    <LENGTH5>gatto</LENGTH5>
+    <LENGTH5>fiume</LENGTH5>
+    <LENGTH5>nuovo</LENGTH5>
+    <LENGTH5>aereo</LENGTH5>
+    <LENGTH4>mano</LENGTH4>
+    <LENGTH7>campana</LENGTH7>
+    <LENGTH10>ombrellone</LENGTH10>
+    <LENGTH7>vecchio</LENGTH7>
+    <LENGTH7>quattro</LENGTH7>
+    <LENGTH9>spaghetti</LENGTH9>
+    <LENGTH6>matita</LENGTH6>
+    <LENGTH8>pinzetta</LENGTH8>
+    <LENGTH7>fragola</LENGTH7>
+    <LENGTH3>due</LENGTH3>
+    <LENGTH7>pioggia</LENGTH7>
+    <LENGTH6>posate</LENGTH6>
+    <LENGTH7>mutanda</LENGTH7>
+    <LENGTH4>dadi</LENGTH4>
+    <LENGTH9>falegname</LENGTH9>
+    <LENGTH7>elmetto</LENGTH7>
+    <LENGTH9>cucitrice</LENGTH9>
+    <LENGTH6>statua</LENGTH6>
+    <LENGTH6>pietra</LENGTH6>
+    <LENGTH9>lucchetto</LENGTH9>
+    <LENGTH6>frutta</LENGTH6>
+    <LENGTH6>denaro</LENGTH6>
+    <LENGTH8>serpente</LENGTH8>
+    <LENGTH10>giocattoli</LENGTH10>
+    <LENGTH6>limone</LENGTH6>
+    <LENGTH7>cerchio</LENGTH7>
+    <LENGTH6>chiave</LENGTH6>
+    <LENGTH7>calzini</LENGTH7>
+    <LENGTH6>carota</LENGTH6>
+    <LENGTH10>tovagliolo</LENGTH10>
+    <LENGTH6>colori</LENGTH6>
+    <LENGTH5>letto</LENGTH5>
+    <LENGTH9>triangolo</LENGTH9>
+    <LENGTH11>apriscatole</LENGTH11>
+    <LENGTH3>uno</LENGTH3>
+    <LENGTH9>rubinetto</LENGTH9>
+    <LENGTH5>sette</LENGTH5>
+    <LENGTH4>gufo</LENGTH4>
+    <LENGTH4>uova</LENGTH4>
+    <LENGTH5>nonna</LENGTH5>
+    <LENGTH5>pesce</LENGTH5>
+    <LENGTH6>squalo</LENGTH6>
+    <LENGTH7>pettine</LENGTH7>
+    <LENGTH5>cuoco</LENGTH5>
+    <LENGTH7>piccolo</LENGTH7>
+    <LENGTH4>casa</LENGTH4>
+    <LENGTH5>palma</LENGTH5>
+    <LENGTH6>gelato</LENGTH6>
+    <LENGTH4>erba</LENGTH4>
+    <LENGTH5>polpo</LENGTH5>
+    <LENGTH5>treno</LENGTH5>
+    <LENGTH4>zero</LENGTH4>
+    <LENGTH4>neve</LENGTH4>
+    <LENGTH10>coccinella</LENGTH10>
+    <LENGTH9>primavera</LENGTH9>
+    <LENGTH3>ape</LENGTH3>
+    <LENGTH5>porta</LENGTH5>
+    <LENGTH5>spada</LENGTH5>
+    <LENGTH8>peperone</LENGTH8>
+    <LENGTH6>cinque</LENGTH6>
+    <LENGTH6>yogurt</LENGTH6>
+    <LENGTH7>vestiti</LENGTH7>
+    <LENGTH5>latte</LENGTH5>
+    <LENGTH6>ferita</LENGTH6>
+    <LENGTH5>panda</LENGTH5>
+    <LENGTH9>maglietta</LENGTH9>
+    <LENGTH10>maccheroni</LENGTH10>
+    <LENGTH5>presa</LENGTH5>
+    <LENGTH8>fratello</LENGTH8>
+    <LENGTH12>orsacchiotto</LENGTH12>
+    <LENGTH5>rosso</LENGTH5>
+    <LENGTH11>ginocchiera</LENGTH11>
+    <LENGTH6>tavolo</LENGTH6>
+    <LENGTH3>ago</LENGTH3>
+    <LENGTH8>ombrello</LENGTH8>
+    <LENGTH5>vasca</LENGTH5>
+    <LENGTH7>lampada</LENGTH7>
+    <LENGTH6>rosato</LENGTH6>
+    <LENGTH7>marrone</LENGTH7>
+    <LENGTH5>lento</LENGTH5>
+    <LENGTH8>castello</LENGTH8>
+    <LENGTH6>fiocco</LENGTH6>
+    <LENGTH6>brocca</LENGTH6>
+    <LENGTH7>padella</LENGTH7>
+    <LENGTH7>camicia</LENGTH7>
+    <LENGTH8>tovaglia</LENGTH8>
+    <LENGTH7>cattivo</LENGTH7>
+    <LENGTH7>ciuccio</LENGTH7>
+    <LENGTH7>sorella</LENGTH7>
+    <LENGTH5>scopa</LENGTH5>
+    <LENGTH6>anatra</LENGTH6>
+    <LENGTH7>pulcino</LENGTH7>
+    <LENGTH12>appendiabiti</LENGTH12>
+    <LENGTH7>lavello</LENGTH7>
+    <LENGTH4>lupo</LENGTH4>
+    <LENGTH8>giardino</LENGTH8>
+    <LENGTH9>pigiamino</LENGTH9>
+    <LENGTH8>quadrato</LENGTH8>
+    <LENGTH5>verde</LENGTH5>
+    <LENGTH8>telefono</LENGTH8>
+    <LENGTH4>foca</LENGTH4>
+    <LENGTH6>faccia</LENGTH6>
+    <LENGTH5>cielo</LENGTH5>
+    <LENGTH5>calze</LENGTH5>
+    <LENGTH7>tappeto</LENGTH7>
+    <LENGTH5>baffi</LENGTH5>
+    <LENGTH5>bello</LENGTH5>
+    <LENGTH9>cucchiaio</LENGTH9>
+    <LENGTH6>freddo</LENGTH6>
+    <LENGTH6>camera</LENGTH6>
+    <LENGTH8>biscotto</LENGTH8>
+    <LENGTH4>code</LENGTH4>
+    <LENGTH7>leggere</LENGTH7>
+    <LENGTH7>polsino</LENGTH7>
+    <LENGTH5>zaino</LENGTH5>
+    <LENGTH6>cinema</LENGTH6>
+    <LENGTH7>correre</LENGTH7>
+    <LENGTH4>luna</LENGTH4>
+    <LENGTH6>chiodo</LENGTH6>
+    <LENGTH7>lattuga</LENGTH7>
+    <LENGTH11>televisione</LENGTH11>
+    <LENGTH10>margherita</LENGTH10>
+    <LENGTH7>pallone</LENGTH7>
+    <LENGTH6>calcio</LENGTH6>
+    <LENGTH8>coltello</LENGTH8>
+    <LENGTH5>carne</LENGTH5>
+    <LENGTH9>pantofole</LENGTH9>
+    <LENGTH4>kiwi</LENGTH4>
+    <LENGTH6>brutto</LENGTH6>
+    <LENGTH6>cucina</LENGTH6>
+    <LENGTH5>bosco</LENGTH5>
+    <LENGTH4>taxi</LENGTH4>
+    <LENGTH5>vento</LENGTH5>
+    <LENGTH6>balena</LENGTH6>
+    <LENGTH9>formaggio</LENGTH9>
+    <LENGTH7>bambini</LENGTH7>
+    <LENGTH4>filo</LENGTH4>
+    <LENGTH4>mare</LENGTH4>
+    <LENGTH6>pecora</LENGTH6>
+    <LENGTH5>piede</LENGTH5>
+    <LENGTH7>mutande</LENGTH7>
+    <LENGTH8>orecchio</LENGTH8>
+    <LENGTH4>auto</LENGTH4>
+    <LENGTH5>tigre</LENGTH5>
+    <LENGTH7>fontana</LENGTH7>
+    <LENGTH10>automobile</LENGTH10>
+    <LENGTH4>cane</LENGTH4>
+    <LENGTH7>forbici</LENGTH7>
+    <LENGTH6>strada</LENGTH6>
+    <LENGTH9>camminare</LENGTH9>
+    <LENGTH6>sporco</LENGTH6>
+    <LENGTH8>triciclo</LENGTH8>
+    <LENGTH5>libro</LENGTH5>
+    <LENGTH8>poltrona</LENGTH8>
+    <LENGTH3>blu</LENGTH3>
+    <LENGTH5>sacco</LENGTH5>
+    <LENGTH8>girasole</LENGTH8>
+    <LENGTH4>cubo</LENGTH4>
+    <LENGTH5>bagno</LENGTH5>
+    <LENGTH9>lampadina</LENGTH9>
+    <LENGTH9>lavandino</LENGTH9>
+    <LENGTH7>scivolo</LENGTH7>
+    <LENGTH7>pittore</LENGTH7>
+    <LENGTH9>bicchiere</LENGTH9>
+    <LENGTH6>patata</LENGTH6>
+    <LENGTH5>nonno</LENGTH5>
+    <LENGTH8>martello</LENGTH8>
+    <LENGTH7>lavagna</LENGTH7>
+    <LENGTH12>motocicletta</LENGTH12>
+    <LENGTH5>torta</LENGTH5>
+    <LENGTH7>cavallo</LENGTH7>
+    <LENGTH4>pala</LENGTH4>
+    <LENGTH5>bocca</LENGTH5>
+    <LENGTH9>pellicano</LENGTH9>
+    <LENGTH7>lattina</LENGTH7>
+    <LENGTH5>sotto</LENGTH5>
+    <LENGTH4>otto</LENGTH4>
+    <LENGTH5>capra</LENGTH5>
+    <LENGTH7>cestino</LENGTH7>
+    <LENGTH2>no</LENGTH2>
+    <LENGTH3>tre</LENGTH3>
+    <LENGTH5>testa</LENGTH5>
+    <LENGTH7>bambino</LENGTH7>
+    <LENGTH7>parlare</LENGTH7>
+    <LENGTH7>soldato</LENGTH7>
+    <LENGTH9>pantalone</LENGTH9>
+    <LENGTH5>dieci</LENGTH5>
+    <LENGTH6>maiale</LENGTH6>
+    <LENGTH7>scimmia</LENGTH7>
+    <LENGTH8>computer</LENGTH8>
+    <LENGTH9>lucertola</LENGTH9>
+    <LENGTH8>coniglio</LENGTH8>
+    <LENGTH8>cappotto</LENGTH8>
+    <LENGTH4>nove</LENGTH4>
+    <LENGTH8>finestra</LENGTH8>
+    <LENGTH10>fischietto</LENGTH10>
+    <LENGTH4>riso</LENGTH4>
+    <LENGTH9>lavatrice</LENGTH9>
+    <LENGTH4>rana</LENGTH4>
+    <LENGTH9>venditore</LENGTH9>
+    <LENGTH3>zio</LENGTH3>
+    <LENGTH8>spiaggia</LENGTH8>
+    <LENGTH8>semaforo</LENGTH8>
+    <LENGTH6>piazza</LENGTH6>
+    <LENGTH10>chiocciola</LENGTH10>
+    <LENGTH9>ginocchio</LENGTH9>
+    <LENGTH5>gesso</LENGTH5>
+    <LENGTH4>dito</LENGTH4>
+    <LENGTH5>borsa</LENGTH5>
+    <LENGTH7>tamburo</LENGTH7>
+    <LENGTH6>albero</LENGTH6>
+    <LENGTH5>succo</LENGTH5>
+    <LENGTH7>negozio</LENGTH7>
+    <LENGTH8>fantasma</LENGTH8>
+    <LENGTH5>pozzo</LENGTH5>
+    <LENGTH4>muro</LENGTH4>
+    <LENGTH6>graffe</LENGTH6>
+    <LENGTH5>renna</LENGTH5>
+    <LENGTH5>mosca</LENGTH5>
+    <LENGTH9>forchetta</LENGTH9>
+    <LENGTH5>barca</LENGTH5>
+    <LENGTH10>elicottero</LENGTH10>
+    <LENGTH9>hamburger</LENGTH9>
+    <LENGTH4>mela</LENGTH4>
+    <LENGTH6>stella</LENGTH6>
+    <LENGTH4>naso</LENGTH4>
+    <LENGTH8>piangere</LENGTH8>
+    <LENGTH3>uva</LENGTH3>
+    <LENGTH7>dormire</LENGTH7>
+    <LENGTH8>gabbiano</LENGTH8>
+    <LENGTH7>animale</LENGTH7>
+    <LENGTH6>medico</LENGTH6>
+    <LENGTH5>mucca</LENGTH5>
+    <LENGTH5>corda</LENGTH5>
+    <LENGTH9>tartaruga</LENGTH9>
+    <LENGTH9>portavaso</LENGTH9>
+    <LENGTH10>cappellino</LENGTH10>
+    <LENGTH5>penna</LENGTH5>
+    <LENGTH7>volante</LENGTH7>
+    <LENGTH6>malato</LENGTH6>
+    <LENGTH4>nero</LENGTH4>
+    <LENGTH5>pelle</LENGTH5>
+    <LENGTH8>dolcetto</LENGTH8>
+    <LENGTH4>cibo</LENGTH4>
+    <LENGTH7>braccio</LENGTH7>
+    <LENGTH8>ciliegie</LENGTH8>
+    <LENGTH5>mappa</LENGTH5>
+    <LENGTH7>biberon</LENGTH7>
+    <LENGTH8>famiglia</LENGTH8>
+    <LENGTH6>divano</LENGTH6>
+    <LENGTH5>sedia</LENGTH5>
+    <LENGTH5>occhi</LENGTH5>
+    <LENGTH7>vestito</LENGTH7>
+    <LENGTH8>orecchie</LENGTH8>
+    <LENGTH8>pinguino</LENGTH8>
+    <LENGTH5>collo</LENGTH5>
+    <LENGTH5>campo</LENGTH5>
+    <LENGTH5>fiori</LENGTH5>
+    <LENGTH7>stivale</LENGTH7>
+    <LENGTH5>fiore</LENGTH5>
+    <LENGTH6>anello</LENGTH6>
+    <LENGTH8>montagna</LENGTH8>
 </DICTIONARY>
