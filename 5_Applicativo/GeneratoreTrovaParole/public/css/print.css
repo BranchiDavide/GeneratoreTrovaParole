@@ -3,7 +3,7 @@
         width: 95%;
         margin-top: 0;
     }
-    .title, .final-words-div, .chars-info-div, .button-box, .initBr{
+    .title, .final-words-div, .chars-info-div, .button-box, .initBr, #changeFinalWordHint, .refreshBtn{
         display: none;
     }
 }

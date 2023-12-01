@@ -72,6 +72,7 @@ h3{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    width: 20%;
 }
 .hide-icon{
     display: none !important;
@@ -89,4 +90,12 @@ h3{
     font-size: 14px;
     color: white;
     width: 160px;
+}
+@media screen and (max-width: 1110px){
+    #tableCenter, #addWordContainer{
+        width: 100%;
+    }
+    #addWord{
+        width: 97%;
+    }
 }

@@ -183,3 +183,65 @@ input{
   color: white;
   font-size: 14px;
 }
+#changeFinalWordHint{
+  position: relative;
+  top: 150px;
+  background-color: #3799bf;
+  padding: 20px;
+  font-size: 14px;
+  color: white;
+  width: 280px;
+}
+.not-display{
+  display: none;
+}
+#changeFinalWordHint:hover, .refreshBtn:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.refreshBtn{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: gray;
+}
+@media screen and (max-width: 1110px){
+  .page-box, .info-box, #modifyBtn, .button-box, #autoGenBtn, #genBtn, #exportBtn, #changeFinalWordHint{
+    width: 98%;
+  }
+  #modifyBtn, #autoGenBtn, #genBtn, #exportBtn, #changeFinalWordHint{
+    margin-top: 10px;
+    float: left;
+  }
+  .info-box{
+    position: relative;
+    top: 2000px;
+  }
+  .chars-info-div{
+    margin: 0;
+    position: relative;
+    bottom: 1100px;
+  }
+  .final-words-div{
+    position: relative;
+    bottom: 500px;
+  }
+  #changeFinalWordHint{
+    position: absolute;
+    left: 0;
+    height: 60px;
+    top: -600px;
+  }
+  .page-box{
+    height: 1050px;
+    /*width: 1600px; For page export*/
+  }
+  .insert-title-box, .table-box, .resp-shift{
+    position: relative;
+    bottom: 570px;
+  }
+}

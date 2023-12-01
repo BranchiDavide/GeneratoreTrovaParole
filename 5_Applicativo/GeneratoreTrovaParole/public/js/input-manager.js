@@ -58,10 +58,10 @@ function updateCharsCount(){
     }
 }
 
-/*
-Ciclo per eseguire ogni volta le funzioni changeBorderInput() e updateCharsCount()
-quando viene premuto un tasto su un input
-*/
+/**
+ * Ciclo per eseguire ogni volta le funzioni changeBorderInput() e updateCharsCount()
+ * quando viene premuto un tasto su un input
+ */
 for(let input of allInputs){
     input.addEventListener("keyup", () => {
         changeBorderInput(input);
@@ -69,9 +69,9 @@ for(let input of allInputs){
     });
 }
 
-/*
-Ciclo per assegnare ad ogni input delle parole l'evento keyup
-*/
+/**
+ * Ciclo per assegnare ad ogni input delle parole l'evento keyup
+ */
 for(let i = 0; i < wordsInput.length; i++){
     //Evento per gestire l'aggiunta o la rimozione delle parole dagli input
     wordsInput[i].addEventListener("keyup", () =>{
@@ -222,6 +222,32 @@ function enableExportBtn(){
 }
 
 /**
+ * Funzione per mostrare il pulsante per cambiare il suggerimento
+ * della parola finale, nella funzione viene anche settato il listener
+ * per mostrare l'alert con l'input per il suggerimento
+ */
+function showFinalWordHintBtn(){
+    hintBtn.removeAttribute("class");
+    hintBtn.addEventListener("click", () =>{
+        Swal.fire({
+            title: "Cambia suggerimento parola finale",
+            input: "text",
+            inputValidator: (value) => {
+                if(value){
+                    if(value.trim().length > 49){
+                        return "È possibile inserire al massimo 49 caratteri";
+                    }else{
+                        finalWordInput.value = value.trim();
+                    }
+                }else{
+                    return "È necessario inserire un valore!"
+                }
+            }
+        })
+    });
+}
+
+/**
  * Funzione per controllare se ci sono della parole duplicate negli input
  * @param inputValue parola da cercare
  * @returns true se la parola è presente più di una volta, false altrimenti
@@ -240,3 +266,8 @@ function checkDuplicates(inputValue){
         return false;
     }
 }
+
+//Chiedere conferma all'utente prima del refresh della pagina
+window.onbeforeunload = function(event) {
+    return confirm("Confirm refresh");
+};

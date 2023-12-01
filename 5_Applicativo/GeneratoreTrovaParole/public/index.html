@@ -24,7 +24,7 @@
     <br class="initBr"/>
     <div class="page-container">
       <div class="info-box">
-        <center>
+        <center class="resp-tag">
           <div class="final-words-div">
             <h3>Parole finali proposte:</h3>
             <table id="finalWordsTable">
@@ -69,6 +69,7 @@
             <p>Caratteri massimi: <span class="info-chars-span">147</span></p>
           </div>
         </center>
+        <button id="changeFinalWordHint" class="not-display">Cambia suggerimento parola finale</button>
       </div>
       <center>
         <div class="page-box">
@@ -257,7 +258,7 @@
               </table>
             </center>
           </div>
-          <center>
+          <center class="resp-shift">
             <br />
             <br />
             <br />
@@ -523,7 +524,7 @@
           </center>
           <br />
           <br />
-          <center>
+          <center class="resp-shift">
             <div class="insert-finalword-box">
               <input
                 disabled
@@ -553,6 +554,7 @@
         </div>
       </center>
     </div>
+    <button class="refreshBtn" onclick="window.location.href = '/'">Resetta la pagina</button>
     <br class="initBr"/>
     <br class="initBr"/>
     <br class="initBr"/>

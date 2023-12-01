@@ -35,6 +35,7 @@ document.getElementById("exportBtn").addEventListener("click", ()=>{
  * @param type stringa contenente il formato dell'immagine (jpeg o png)
  */
 function exportAsImage(type){
+    let pageBox = document.getElementsByClassName("page-box")[0];
     let title = document.getElementById("titleInput");
     let newTitle = document.createElement('p');
     truncateTitle();
@@ -43,7 +44,7 @@ function exportAsImage(type){
     let center = document.createElement('center');
     center.appendChild(newTitle);
     overrideElement(title, center);
-    html2canvas(document.getElementsByClassName("page-box")[0]).then(canvas => {
+    html2canvas(pageBox).then(canvas => {
         let date = new Date();
         const img = canvas.toDataURL(`image/${type}`);
         const link = document.createElement('a');
@@ -59,6 +60,6 @@ function exportAsImage(type){
  * solamente la pagina di stampa del browser
  */
 function exportAsPdf(){
-    truncateTitle();
+    truncateTitle(); //Tronca il titolo a max. 60 caratteri
     window.print();
 }

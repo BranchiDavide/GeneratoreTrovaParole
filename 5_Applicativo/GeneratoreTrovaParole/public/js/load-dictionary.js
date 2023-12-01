@@ -17,7 +17,6 @@ window.onload = function(){
                 setIconsListeners();
             }else{
                 //Errore nel caso la richiesta del dizionario fallisca
-                //alert("Errore nel caricamento del dizionario, status code: " + this.status);
                 Swal.fire({
                     icon: 'error',
                     title: 'Errore nel caricamento del dizionario',
@@ -64,9 +63,16 @@ function displayTable(){
         document.getElementById("tdShowMore").addEventListener("click", () => {
             //Quando "Carica di più" viene premuto, vengono caricate 100 righe aggiuntive alla tabella
             //e viene nuovamente mostrata
-            loadTable(100);
-            displayTable();
-            setIconsListeners();
+            if(dictionaryChanges.length != 0){
+                Swal.fire({
+                    icon: "warning",
+                    title: "Salvare le modifiche prima di caricare di più",
+                });
+            }else{
+                loadTable(100);
+                displayTable();
+                setIconsListeners();
+            }
         });
     }
 }
